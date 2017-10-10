@@ -1,14 +1,14 @@
 ---
-title: Introduction to ITK eDischarge
+title: Introduction to ITK Emergency Care eDischarge
 keywords: homepage
 tags: [overview]
 sidebar: overview_sidebar
 permalink: index.html
 toc: false
-summary: A brief introduction to getting started with the ITK eDischarge.
+summary: A brief introduction to getting started with the ITK Emergency Care eDischarge.
 ---
 
-{% include important.html content="This site is under active development by NHS Digital and is intended to provide all the technical resources you need to successfully develop the ITK eDischarge components of FHIR messaging. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
+{% include important.html content="This site is under active development by NHS Digital and is intended to provide all the technical resources you need to successfully develop the ITK Emergency Care eDischarge components of FHIR messaging. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
 
 {% include warning.html content="This site is provided for information only and is intended for those engaged with NHS Digital in the development of FHIR Messaging. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
@@ -16,9 +16,9 @@ summary: A brief introduction to getting started with the ITK eDischarge.
 
 ## Introduction ##
 
-The Transfer Of Care eDischarge  Specification supports the following care communications:
+The Emergency Care eDischarge  Specification supports the following care communications:
 
-**eDischarge (inpatient discharge summary) Document** – An ITK FHIR Document containing Transfer of Care information supporting an inpatient discharge typically between an acute hospital and GP practice.
+**Emergency Care eDischarge Summary Document** – An ITK FHIR Document containing  information supporting a discharge typically between a hospital emergency care department and a GP practice.
    
 FHIR Messaging components specified within this site have been developed by NHS Digital and use some of the CareConnect profiles created in collaboration with the INTEROPen community. 
 
@@ -38,7 +38,7 @@ This guide has been created to support the adoption of NHS Digital defined FHIR 
 
 The above steps outline a complete journey from imagination and exploring to developing local ITK Messaging Solutions using NHS Digital Messages, all the way to deploying a live ITK Messaging Solution.
 
-# ITK FHIR eDischarge Focus #
+# ITK FHIR Emergency Care eDischarge Focus #
 
 The current site focuses on a typical FHIR ITK Messaging Solution Developer's Journey as highlighted by the green boxes below in the developer journey:
 
@@ -47,7 +47,7 @@ The current site focuses on a typical FHIR ITK Messaging Solution Developer's Jo
 
 # Resource Roadmap #
 
-The [ITK eDischarge journey](overview_message_journey.html) outlines the development roadmap for FHIR Messaging using the ITK eDischarge outlined messaging within this site. Note: This roadmap would include components from other NHS Digital specifications for example ITK eDischarge message components, CareConnect profiles etc.
+The [ITK Emergency Care eDischarge journey](overview_message_journey.html) outlines the development roadmap for FHIR Messaging using the ITK Emergency Care eDischarge outlined messaging within this site. Note: This roadmap would include components from other NHS Digital specifications for example ITK Emergency Care eDischarge message components, CareConnect profiles etc...
 
 <img src="images/roadmap/messaging_roadmap-online.png" style="width:100%;max-width: 100%;">
 
