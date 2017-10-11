@@ -1,6 +1,6 @@
 entries:
-- title: ITK FHIR eDischarge 
-  product: ITK FHIR eDischarge
+- title: ITK FHIR Emergency Care eDischarge 
+  product: ITK FHIR Emergency Care eDischarge
   version: 2.0.0-alpha.1
   levels: one
   folders:
@@ -300,6 +300,9 @@ entries:
       output: web
     - title: Development
       url: /tag_development.html
+      output: web
+    - title: Messaging
+      url: /tag_messaging.html
       output: web
     - title: Support
       url: /tag_support.html
