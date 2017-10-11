@@ -10,9 +10,8 @@ summary: "Gives information about the Clinical narrative section"
 {% include custom/section.warnbanner.html %}
 
 ## Clinical Narrative Section Content##
-The Clinical narrative section carries a clinical narrative detailing a patient’s reason for attendance, results from the diagnostic and treatment process. Where possible, very brief,items in bold are subheadings and should be formatted as such in any html sent:
-**Clinical narrative**
-This may include interpretation of findings and results; differential diagnoses, opinion and specific action(s). Planned actions will be recorded under ‘plan’.
+The Clinical narrative section carries a clinical narrative detailing a patient’s reason for attendance and results from the diagnostic and treatment process. Where possible, very brief,items in bold are subheadings and should be formatted as such in any html sent:
+**Clinical narrative**.
 
 ##  Example Clinical Narrative Section ##
 
