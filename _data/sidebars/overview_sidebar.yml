@@ -73,20 +73,20 @@ entries:
       type: homepage
       subfolders:
       - title: A to H
-        url: /explore_admission_details.html
+        url: /explore_allergies_and_adverse_reactions.html
         output: web
         subfolderitems:
-        - title: Admission details
-          url: /explore_admission_details.html
-          output: web
         - title: Allergies and adverse reactions
           url: /explore_allergies_and_adverse_reactions.html
           output: web
-        - title: Assessment scales
-          url: /explore_assessment_scales.html
+        - title: Attendance details
+          url: /explore_attendance_details.html
           output: web
-        - title: Clinical summary
-          url: /explore_clinical_summary.html
+        - title: Clinical narrative
+          url: /explore_clinical_narrative.html
+          output: web
+        - title: Contact for further information
+          url: /explore_contact_for_further_information.html
           output: web
         - title: Diagnoses
           url: /explore_diagnoses.html
@@ -101,39 +101,24 @@ entries:
           url: /explore_gp_practice.html
           output: web
       - title: I to L
- #       url: /explore_admission_details.html
+ #       url: /explore_allergies_and_adverse_reactions.html
         output: web
         subfolderitems:
-        - title: Individual requirements
-          url: /explore_individual_reqs.html
-          output: web
         - title: Information and advice given
-          url: /explore_information_given.html
-          output: web
-        - title: Investigations and procedures requested
-          url: /explore_invest_and_proc_req.html
-          output: web
-        - title: Investigation results
-          url: /explore_invest_results.html
+          url: /explore_information_and_advice.html
           output: web
         - title: Legal information 
           url: /explore_legal_info.html
           output: web
       - title: M to P
-        url: /explore_admission_details.html
+        url: /explore_allergies_and_adverse_reactions.html
         output: web
         subfolderitems:
         - title: Medications and medical devices
           url: /explore_medication.html
           output: web
-        - title: Participation in research
-          url: /explore_part_research.html
-          output: web
         - title: Patient demographics
           url: /explore_patient_demographics.html
-          output: web
-        - title: Patient and carer concerns,expectations and wishes
-          url: /explore_pat_care_concerns.html
           output: web
         - title: Person completing record
           url: /explore_per_com_record.html
@@ -141,11 +126,14 @@ entries:
         - title: Plan and requested actions
           url: /explore_plan_req_actions.html
           output: web
+        - title: Presenting complaints or issues
+          url: /explore_presenting_complaints_or_issues.html
+          output: web
         - title: Procedures
           url: /explore_procedures.html
           output: web
       - title: Q to T
-        url: /explore_admission_details.html
+        url: /explore_allergies_and_adverse_reactions.html
         output: web
         subfolderitems:
         - title: Referrer details
@@ -154,10 +142,9 @@ entries:
         - title: Safety alerts
           url: /explore_safety_alerts.html
           output: web
-        - title: Social context
-          url: /explore_social_context.html
+        - title: Senior reviewing clinician
+          url: /explore_senior_reviewing_clinician.html
           output: web
-
 
   - title: Example Scenarios
     url: /engage_scenario.html
