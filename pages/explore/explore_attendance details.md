@@ -3,7 +3,7 @@ title: Attendance details section
 keywords:  messaging, sections
 tags: [fhir,messaging,sections]
 sidebar: foundations_sidebar
-permalink: explore_attendance details.html
+permalink: explore_attendance_details.html
 summary: "Gives information about the Attendance details section"
 ---
 
@@ -14,14 +14,8 @@ The Attendance details section carries information about Attendance details used
 
 **Attendance details** Attendance details used,eg,
 
-- New York Heart Failure scale
-- Activities of Daily Living(ADL)
-- cognitive function, mood assessment scales
-- developmental scales
-- MUST (nutrition)
-- BPI (pain)
-
-
+- Date and time patient arrived at the emergency department.
+- This is the date and time of arrival as recorded on the PAS
 
 ## Example Attendance details Section Example ##
 

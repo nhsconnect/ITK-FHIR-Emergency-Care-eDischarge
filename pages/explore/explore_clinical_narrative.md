@@ -15,7 +15,7 @@ The Clinical narrative section carries a clinical narrative detailing a patientâ
 
 ##  Example Clinical Narrative Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/77620f7d132b195c42b5f2fee5f39172.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/f90f3d0e728470d48de1c41ad08fdfab.js"></script>
 
 ## Coded Resources ##
 

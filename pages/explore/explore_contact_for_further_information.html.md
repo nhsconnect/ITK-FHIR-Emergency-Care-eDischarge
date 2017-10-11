@@ -22,7 +22,7 @@ Includes:
 
 ##  Example Contact for further information Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/497e71d591b9041c318dc4c88517287b.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/2fc82c41a8105e6cb66b03c59dccdc24.js"></script>
 
 ## Coded Resources ##
 
