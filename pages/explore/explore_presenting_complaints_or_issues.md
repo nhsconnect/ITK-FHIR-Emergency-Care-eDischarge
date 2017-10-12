@@ -1,30 +1,30 @@
 ---
-title: Patient and Carer Concerns, Expectations and Wishes Section
+title: Presenting complaints or issues Section
 keywords:  messaging, sections
 tags: [fhir,messaging,sections]
 sidebar: foundations_sidebar
-permalink: explore_pat_care_concerns.html
-summary: "Gives information about the Patient and carer concerns, expectations and wishes section"
+permalink: explore_presenting_complaints_or_issues.html
+summary: "Gives information about the Presenting complaints or issues section"
 ---
 
 {% include custom/section.warnbanner.html %}
 
-## Patient and Carer Concerns, Expectations and Wishes Section Content##
-The Patient and carer concerns, expectations and wishes section carries information about the concern of the patient or their representative. Items in bold are subheadings and should be formatted as such in any html sent:
+## Presenting Complaints Or Issues Section Content##
+The Presenting complaints or issues section carries information about the complaints or issues experienced by the patient.  Items in bold are subheadings and should be formatted as such in any html sent:
 
-- **Patient’s and carer’s concerns, expectations and wishes**
+- **Presenting complaint or issue**
 
-Description of the concerns, wishes or goals of the patient, patient representative or carer. This could be the carer giving information if the patient is not competent, or the parent of a young child
+The health problem or issue experienced by the patient resulting in their attendance.  This may include disease state, medical condition, response and reactions to therapies. E.g., blackout, dizziness, chest pain, follow up from admission, falls, a specific procedure, investigation or treatment.
 
-## Example Patient and Carer Concerns, Expectations and Wishes Section ##
+## Example Presenting Complaints Or Issues Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/cd418195a1684f2148936dec94a40842.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/cec203cc480ab3a7977f281c68d96461.js"></script>
 
 ## Coded Resources ##
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR eDischarge does not currently support coded patient and carer concerns, expectations and wishes information.
+- The ITK FHIR eDischarge Emergency Care does not currently support coded presenting complaints or issues information.
 
 
 

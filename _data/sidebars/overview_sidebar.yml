@@ -105,7 +105,7 @@ entries:
         output: web
         subfolderitems:
         - title: Information and advice given
-          url: /explore_information_and_advice.html
+          url: /explore_information_and_advice_given.html
           output: web
         - title: Legal information 
           url: /explore_legal_info.html

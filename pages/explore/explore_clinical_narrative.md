@@ -10,8 +10,10 @@ summary: "Gives information about the Clinical narrative section"
 {% include custom/section.warnbanner.html %}
 
 ## Clinical Narrative Section Content##
-The Clinical narrative section carries a clinical narrative detailing a patient’s reason for attendance and results from the diagnostic and treatment process. Where possible, very brief,items in bold are subheadings and should be formatted as such in any html sent:
-**Clinical narrative**.
+The Clinical narrative section carries details of the clinical narrative. Where possible, very brief,items in bold are subheadings and should be formatted as such in any html sent:
+
+
+- **Clinical narrative** - A description detailing a patient’s reason for attendance and results from the diagnostic and treatment process.
 
 ##  Example Clinical Narrative Section ##
 
@@ -21,7 +23,7 @@ The Clinical narrative section carries a clinical narrative detailing a patient�
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR eDischarge does not currently support a coded Clinical narrative.
+- The ITK FHIR Emergency Care eDischarge does not currently support a coded clinical narrative.
 
 
 
