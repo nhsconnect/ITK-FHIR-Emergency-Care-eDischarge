@@ -21,20 +21,20 @@ This section provides ITK Emergency Care eDischarge implementers with the inform
 The ITK Emergency Care eDischarge is based on the [HL7 FHIR STU3 Messaging Implementation](http://hl7.org/fhir/messaging.html) and supports multiple interactions. 
 
 ---------
-## DOC-ToC-Primary-Recipient-eDischarge-1 Interaction ##
+## DOC-ToC-Primary-Recipient-EC-eDischarge-1 Interaction ##
 
 The sending hospital system will construct an Emergency Care eDischarge FHIR Document and send it to the primary recipient's receiving system.
 
-- Sender: Hospital sending system
-- Receiver: eDischarge Recipient system
+- Sender: Hospital Sending system
+- Receiver: Emergency Care eDischarge Recipient system
 - Message: Wire Format: TOC-eDischarge-1
 
-## DOC-ToC-Copy-Recipient-eDischarge-1 Interaction ##
+## DOC-ToC-Copy-Recipient-EC-eDischarge-1 Interaction ##
 
 The sending hospital system will construct an Emergency Care eDischarge FHIR Document and send it to the copy recipient's receiving system. 
 
-- Sender: Hospital sending system
-- Receiver: eDischarge Recipient system
+- Sender: Hospital Sending system
+- Receiver: Emergency Care eDischarge Recipient system
 - Message: Wire Format: TOC-eDischarge-1
 
 ## Acknowledgements Interactions ##
@@ -50,7 +50,7 @@ Dependent on system set up the following interactions may be utilised.
 The diagram shows the Emergency Care eDischarge Document Interactions: Note: The use of the ITK infrastructure interactions are dependant on system configuration.  
 
 
-<img src="images/explore/ITK-eDischarge-FHIRInteractions.png" style="width:75%;max-width: 75%;">
+<img src="images/explore/ITK-EC-eDischarge-FHIRInteractions.png" style="width:75%;max-width: 75%;">
 
 
 
