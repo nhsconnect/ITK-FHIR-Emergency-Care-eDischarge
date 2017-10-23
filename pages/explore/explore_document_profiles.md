@@ -4,20 +4,20 @@ keywords:  documents
 tags: [fhir,messaging,documents]
 sidebar: foundations_sidebar
 permalink: explore_document_profiles.html
-summary: "ITK eDischarge FHIR Document profile"
+summary: "ITK Emergency Care eDischarge FHIR Document profile"
 ---
 
 {% include custom/search.warnbanner.html %}
 
 
-## ITK eDischarge FHIR Document Bundle ##
+## ITK Emergency Care eDischarge FHIR Document Bundle ##
 
-FHIR resource profiles combined to support eDischarge (inpatient discharge summary) FHIR Documents.
+FHIR resource profiles combined to support Emergency Care eDischarge FHIR Documents.
 
 The Bundle consists of the following FHIR Resource Profiles.
 
 - **[ITK-Document-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Document-Bundle-1)** - An NHS Digital Bundle Profile to represent a container to collect a combination of the ITK FHIR Document resources.
-- **[ITK-EDIS-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-EDIS-Composition-1)** - An NHS Digital Profile for eDischarge FHIR Documents. 
+- **[ITK-EC-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-EC-Composition-1)** - An NHS Digital Profile for eDischarge FHIR Documents. 
 - **[CareConnect-ITK-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)** - A CareConnect derived NHS Digital Profile for encounter. The encounter resource represents an encounter between a care professional and the patient (or patient's record).
 - **[ITK-Medication-List-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Medication-List-1)** - An NHS Digital Profile for recording a snapshot of the list of Medications for the patient.
 - **[CareConnect-MedicationStatement-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationStatement-1)** - A CareConnect Profile for medication statements. The MedicationStatement Resource is a record of a medication that is being consumed by a patient.
@@ -77,9 +77,9 @@ The Bundle consists of the following FHIR Resource Profiles.
 - **[Extension-CareConnect-AllergyCertainty-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergyCertainty-1)** - A CareConnect extension to the allergyIntolerance resource to support a coded certainty of the allergy/intolerance.
 - **[Extension-CareConnect-AllergySeverity-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1)** - A CareConnect extension to the allergyIntolerance resource
 
-## ITK eDischarge FHIR Document Profile Referencing ##
+## ITK Emergency Care eDischarge FHIR Document Profile Referencing ##
 
-The diagram shows the referencing between the profiles in the bundle which make up the ITK eDischarge FHIR Document.
+The diagram shows the referencing between the profiles in the bundle which make up the ITK Emergency Care eDischarge FHIR Document.
 
 When using ITK3 there is an outer bundle structure which is called the [ITK3 send payload bundle structure](https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_messages.html#itk-send-payload-bundle-diagram) for use with ITK3. 
 
@@ -87,11 +87,11 @@ This diagram only goes to one level due to the complexity and size of the docume
 
 <img src="images/explore/Key.png" style="width: 75%;max-width: 75%;"> 
 
-<img src="images/explore/eDischarge_message_bundle.png" style="width:80%;max-width: 80%;"> 
+<img src="images/explore/EC_eDischarge_message_bundle.png" style="width:80%;max-width: 80%;"> 
 
-## ITK eDischarge Bundle Example ##
+## ITK Emergency Care eDischarge Bundle Example ##
 
-<script src="https://gist.github.com/IOPS-DEV/4c7978a769e995660c41c2c8479b9255.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/1a532eb43b226dcd6ce26a6b698019f4.js"></script>
 
 {% include custom/messaging_overview.svg %}
 
