@@ -1,7 +1,7 @@
 ---
 title: Senior reviewing clinician Section
 keywords:  messaging, sections
-tags: [fhir,messaging,sections]
+tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_senior_reviewing_clinician.html
 summary: "Gives information about the Senior reviewing clinician section"

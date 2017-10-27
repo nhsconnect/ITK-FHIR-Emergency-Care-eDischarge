@@ -1,7 +1,7 @@
 ---
 title:  Contact for further information Section
 keywords:  messaging, sections
-tags: [fhir,messaging,sections]
+tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_contact_for_further_information.html
 summary: "Gives information about the Contact for further information section"

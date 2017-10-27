@@ -1,7 +1,7 @@
 ---
 title: Presenting complaints or issues Section
 keywords:  messaging, sections
-tags: [fhir,messaging,sections]
+tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_presenting_complaints_or_issues.html
 summary: "Gives information about the Presenting complaints or issues section"

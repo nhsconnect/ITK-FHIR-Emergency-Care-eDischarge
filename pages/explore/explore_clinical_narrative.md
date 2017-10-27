@@ -1,7 +1,7 @@
 ---
 title: Clinical Narrative Section
 keywords:  messaging, sections
-tags: [fhir,messaging,sections]
+tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_clinical_narrative.html
 summary: "Gives information about the Clinical narrative section"
