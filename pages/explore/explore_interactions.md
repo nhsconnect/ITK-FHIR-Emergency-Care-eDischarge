@@ -9,7 +9,7 @@ summary: "ITK Emergency Care eDischarge Interactions"
 
 {% include custom/search.warnbanner.html %}
 
-{% include custom/messaging_overview.svg %}
+
 
 ## ITK Emergency Care eDischarge Interactions Overview ##
 This section provides ITK Emergency Care eDischarge implementers with the information required to utilise the ITK Emergency Care eDischarge Interactions.
