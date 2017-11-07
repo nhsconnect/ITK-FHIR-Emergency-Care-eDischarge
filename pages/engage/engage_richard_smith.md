@@ -38,3 +38,4 @@ After a short wait, Richard starts to feel worse and his wife goes to speak to t
 
 Dr Paul Rastall updates the A & E system and sends an Emergency Care eDischarge to Richard's GP and the community nurse. The Emergency Care eDischarge give a summary of the A & E encounter and informs the GP that Richard has been admitted to a ward for further tests.    
 
+<script src="https://gist.github.com/IOPS-DEV/1a532eb43b226dcd6ce26a6b698019f4.js"></script>
