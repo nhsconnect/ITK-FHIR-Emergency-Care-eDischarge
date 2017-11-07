@@ -206,15 +206,15 @@ entries:
     - title: Overview
       url: /assure.html
       output: web
-    - title: Access
-      url: /assure_access.html
-      output: web
-    - title: Security
-      url: /assure_security.html
-      output: web
-    - title: End To End
-      url: /assure_end_to_end.html
-      output: web
+    # - title: Access
+      # url: /assure_access.html
+      # output: web
+    # - title: Security
+      # url: /assure_security.html
+      # output: web
+    # - title: End To End
+      # url: /assure_end_to_end.html
+      # output: web
 
   - title: Deploy
     output: web
@@ -222,12 +222,12 @@ entries:
     - title: Overview
       url: /deploy.html
       output: web
-    - title: Access
-      url: /deploy_access.html
-      output: web
-    - title: Security
-      url: /deploy_security.html
-      output: web
+    # - title: Access
+      # url: /deploy_access.html
+      # output: web
+    # - title: Security
+      # url: /deploy_security.html
+      # output: web
 
   - title: Help & Support
     output: web
@@ -270,9 +270,15 @@ entries:
     - title: Development
       url: /tag_development.html
       output: web
+    - title: Document
+      url: /tag_document.html
+      output: web
     - title: Messaging
       url: /tag_messaging.html
       output: web
     - title: Support
       url: /tag_support.html
+      output: web
+    - title: Section
+      url: /tag_section.html
       output: web
