@@ -36,6 +36,10 @@ The A & E Department encounter is carried in the [Encounter Resource](https://fh
 
 After a short wait, Richard starts to feel worse and his wife goes to speak to the receptionist, who asks a passing nurse to speak to Richard. Richard's wife explains that she is concerned about the possibility of Richard suffering from a heart attack,as his symptoms are similar to Richard's mother when she had a heart attack. The nurse feels that Richard needs to be seen urgently and asks him and his wife to follow her to the examination cubicle. After taking Richard's vital signs, the nurse explains that she will go and get a doctor to examine Richard. She leaves the cubicle and returns with Dr Paul Rastall. He also takes Richard's vital signs and does an ECG that shows inferior ischaemic changes. Dr Paul Rastall explains that he may need to admit Richard but will speak to the consultant Mr Abacas, who after reviewing the ECG agrees that Richard should be admitted a ward for further tests without delay. 
 
-Dr Paul Rastall updates the A & E system and sends an Emergency Care eDischarge to Richard's GP and the community nurse. The Emergency Care eDischarge give a summary of the A & E encounter and informs the GP that Richard has been admitted to a ward for further tests.    
+Dr Paul Rastall updates the A & E system and sends an Emergency Care eDischarge to Richard's GP and the community nurse. The Emergency Care eDischarge give a summary of the A & E encounter and informs the GP that Richard has been admitted to a ward for further tests. 
+
+## Example Instance of Scenario ##   
 
 <script src="https://gist.github.com/IOPS-DEV/1a532eb43b226dcd6ce26a6b698019f4.js"></script>
+
+## Example Rendered Instance of Scenario ##
