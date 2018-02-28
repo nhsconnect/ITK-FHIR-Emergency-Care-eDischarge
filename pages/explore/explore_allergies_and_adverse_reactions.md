@@ -10,11 +10,24 @@ summary: "Gives information about the Allergies and adverse reactions section"
 {% include custom/section.warnbanner.html %}
 
 ## Allergies and Adverse Reactions Section Content##
-The Allergies and adverse reactions section carries information about the patient's allergies and adverse reactions, items in bold are subheadings and should be formatted as such in any html sent:
+The Allergies and adverse reactions section carries information about the patient's allergies and adverse reactions, subheadings should be formatted as such in any html sent:
 
-<ul>
-<li><b>Causative agent</b> - The agent such as food, drug or substances that has caused or may cause an allergy, intolerance or adverse reaction in this patient.</li>
-<li><b>Description of the reaction</b> - A description of the manifestation of the allergic or adverse reaction experienced by the patient. This may include:</li>
+<table width="100%">
+<tr>
+<th width="25%">Sub-section</th>
+<th width="45%">Description</th>
+<th width="15%">Cardinally</th>
+<th width="15%">Conformance</th>
+</tr>
+<tr>
+<td>Causative agent</td>
+<td>The agent such as food, drug or substances that has caused or may cause an allergy, intolerance or adverse reaction in this patient.</td>
+<td>1..1</td>
+<td>Mandatory</td>
+</tr>
+<tr>
+<td>Description of the reaction</td>
+<td>A description of the manifestation of the allergic or adverse reaction experienced by the patient. This may include:
 <ul>
 <li>manifestation, eg, skin rash</li>
 <li>type of reaction (allergic, adverse, intolerance)</li>
@@ -22,9 +35,50 @@ The Allergies and adverse reactions section carries information about the patien
 <li>certainty</li>
 <li>evidence (eg, results of investigations).</li>
 </ul>
-<li><b>Probability of recurrence</b> - Probability of the reaction (allergic, adverse, intolerant) occurring.</li>
-<li><b>Date first experienced</b> - When the reaction was first experienced. May be a date or partial date (eg, year) or free text (eg, during childhood).</li>
-</ul>
+</td>
+<td>0..1</td>
+<td>Required</td>
+</tr>
+<tr>
+<td>Severity</td>
+<td>A description of the severity of the reaction.</td>
+<td>0..1</td>
+<td>Required</td>
+</tr>
+<tr>
+<td>Certainty</td>
+<td>A description of the certainty that the stated causative agent caused the allergic or adverse reaction.
+</td>
+<td>0..1</td>
+<td>Required</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>Results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests
+</td>
+<td>0..1</td>
+<td>Required</td>
+</tr>
+<tr>
+<td>Probability of recurrence</td>
+<td>Probability of the reaction (allergic, adverse, intolerant) occurring.
+</td>
+<td>0..1</td>
+<td>Required</td>
+</tr>
+<tr>
+<td>Date first experienced</td>
+<td>When the reaction was first experienced. May be a date or partial date (eg, year) or free text (eg, during childhood).</td>
+<td>0..1</td>
+<td>Required</td>
+</tr>
+<tr>
+<td>Comment</td>
+<td>Any comments related to the allergy or adverse reaction</td>
+<td>0..1</td>
+<td>Optional</td>
+</tr>
+</table>
 
 
 ##  Example Allergies and Adverse Reactions Sections ##

@@ -10,12 +10,22 @@ summary: "Gives information about the Attendance details section"
 {% include custom/section.warnbanner.html %}
 
 ## Attendance Details Section Content ##
-The Attendance details section carries information about Attendance details used, items in bold are subheadings and should be formatted as such in any html sent:
+The Attendance details section carries information about Attendance details used, subheadings should be formatted as such in any html sent:
 
-**Attendance details** Attendance details used,eg,
-
-- Date and time patient arrived at the emergency department.
-- This is the date and time of arrival as recorded on the PAS
+<table width="100%">
+<tr>
+<th width="25%">Sub-section</th>
+<th width="45%">Description</th>
+<th width="15%">Cardinally</th>
+<th width="15%">Conformance</th>
+</tr>
+<tr>
+<td>Date and time of contact</td>
+<td>Date and time of the appointment, contact or attendance.</td>
+<td>1.1</td>
+<td>Mandatory</td>
+</tr>
+</table>
 
 ## Example Attendance details Section ##
 
