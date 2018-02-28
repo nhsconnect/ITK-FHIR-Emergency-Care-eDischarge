@@ -10,20 +10,36 @@ summary: "Gives information about the Discharge details section"
 {% include custom/section.warnbanner.html %}
 
 ## Discharge Details Section Content##
-The Discharge details section carries details of the patient's discharge, items in bold are subheadings and should be formatted as such in any html sent:
+The Discharge details section carries details of the patient's discharge, subheadings should be formatted as such in any html sent:
 
-
-- **Discharging consultant** - The consultant responsible for the patient at time of discharge.
-- **Discharging specialty/department** - The specialty/department responsible for the patient at the time of discharge.
-- **Expected date of discharge** -  The date the patient is currently expected to be discharged from hospital.
-- **Date of discharge** - Time of discharge Electronic environment only.
-- **Discharge method** - The method of discharge from hospital. National codes:
-eg, patient discharged on clinical advice or with clinical consent; patient discharged
-him/herself or was discharged by a relative or advocate, patient died, stillbirth.
-- **Discharge destination** -  The destination of the patient on discharge from hospital. National codes.
-Eg NHS-run care home.
-- **Discharge address Address** - to which patient discharged. Only completed where this is not the usual
-place of residence.
+<table width="100%">
+<tr>
+<th width="25%">Sub-section</th>
+<th width="45%">Description</th>
+<th width="15%">Cardinally</th>
+<th width="15%">Conformance</th>
+</tr>
+<tr>
+<td>Discharge destination</td>
+<td>The destination of the patient on discharge. National codes. Eg, High Dependency Unit.
+</td>
+<td>1..1</td>
+<td>Mandatory</td>
+</tr>
+<tr>
+<td>Discharge status</td>
+<td>Patient status on discharge from emergency care. Sent as per the ECDS Emergency Care Discharge
+Status code set (SNOMED CT):</td>
+<td>1..1</td>
+<td>Mandatory</td>
+</tr>
+<tr>
+<td>Date/time of discharge</td>
+<td>The actual date of discharge</td>
+<td>1..1</td>
+<td>Mandatory</td>
+</tr>
+</table>
 
 ##  Example Discharge Section ##
 
