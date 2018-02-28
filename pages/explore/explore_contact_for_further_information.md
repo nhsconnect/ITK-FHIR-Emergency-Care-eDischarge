@@ -9,7 +9,7 @@ summary: "Gives information about the Contact for further information section"
 
 {% include custom/section.warnbanner.html %}
 
-#Contact for further information Content ##
+## Contact for further information Content ##
 The Contact for further information section carries information about the contact details, subheadings should be formatted as such in any html sent:
 
 <table width="100%">
