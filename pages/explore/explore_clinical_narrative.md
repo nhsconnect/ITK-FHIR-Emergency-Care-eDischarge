@@ -9,7 +9,7 @@ summary: "Gives information about the Clinical narrative section"
 
 {% include custom/section.warnbanner.html %}
 
-## Clinical Narrative Section Content##
+## Clinical Narrative Section Content ##
 The Clinical narrative section carries details of the clinical narrative. Where possible, very brief,subheadings should be formatted as such in any html sent:
 
 <table width="100%">
