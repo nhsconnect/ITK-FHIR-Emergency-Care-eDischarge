@@ -21,7 +21,7 @@ The Diagnoses section carries information about Diagnoses subheadings should be 
 </tr>
 <tr>
 <td>Confirmed diagnosis</td>
-<td>active diagnoses being treated.
+<td>Active diagnoses being treated.
 Including the stage of the disease where relevant.</td>
 <td>0..*</td>
 <td>Required</td>
