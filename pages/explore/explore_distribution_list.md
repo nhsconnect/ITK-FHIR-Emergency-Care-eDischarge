@@ -10,21 +10,53 @@ summary: "A list of recipients of the document"
 
 
 ## Distribution List Section Content ##
-The Distribution list section is rendered from the Information Recipient Extension which references a number of resources for document recipients. The resources used are:
 
-- **[CareConnect-Practitioner-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)** - A CareConnect Profile for a practitioner. The Practitioner resource represents the healthcare professional directly or indirectly involved in the provision of healthcare related services.
-- **[CareConnect-Organization-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)** - 	A CareConnect Profile for Organization. The Organization resource represents the organisation that employs the healthcare professional.
-- **[ITK-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-RelatedPerson-1)** - An NHS Digital profile which carries information for a person with a relationship with the patient.
-- **[CareConnect-Patient-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)** - A CareConnect Profile for patient. The Patient resource represents the patient involved in the provision of healthcare related services.
+The Distribution list section carries a list of recipients of the document subheadings should be formatted as such in any html sent:
 
-This is a standard extension for all ITK FHIR documents and therefore not all recipient types may be applicable to all document types. However receiving systems should be capable of rendering information from all the above resource types.
-
-The Recipient list section must be rendered in a similar format to other sections. The following is a suggested format for rendering. Items in bold are suggested subheadings and should be formatted as such when rendered: 
-
-- **Recipient name** 
-- **Job role**
-- **Phone**
-- **Email**
+<table width="100%">
+<tr>
+<th width="25%">Sub-section</th>
+<th width="45%">Description</th>
+<th width="15%">Cardinally</th>
+<th width="15%">Conformance</th>
+</tr>
+<tr>
+<td>Name</td>
+<td>If the document is being sent to a named individual, then this is the name of the recipient, preferably in a structured format. An identifier for the individual, for example GMC code (for a GP), or an SDS identifier, a NHS Number (for a patient) will be sent alongside the name, but may not displayed on rendered document.</td>
+<td>1..1</td>
+<td>Mandatory</td>
+</tr>
+<tr>
+<td>Role</td>
+<td>If the document is being sent to either a named individual, or to a non-named person with a specific role, then this is the role of the recipient</td>
+<td>0..1</td>
+<td>Required</td>
+</tr>
+<tr>
+<td>Grade</td>
+<td>The recipient’s grade.</td>
+<td>0..1</td>
+<td>Required</td>
+</tr>
+<tr>
+<td>Organisation name</td>
+<td>The name of the organisation the recipient is representing or the organisation named as the receiving organisation. An identifier for the organisation will be sent alongside the name, but may not be displayed on rendered document.</td>
+<td>0..1</td>
+<td>Required</td>
+</tr>
+<tr>
+<td>Team</td>
+<td>Team that the recipient belongs to in the context of receiving this message, or the team acting as the recipient.</td>
+<td>0..1</td>
+<td>Required</td>
+</tr>
+<tr>
+<td>Relationship to subject</td>
+<td>Relationship to subject	The relationship of the receiver to the patient, where the receiver has a personal relationship to the patient, for example, carer or parent</td>
+<td>0..1</td>
+<td>Required</td>
+</tr>
+</table>
 
 ## Example Distribution List Entry Using Organization Resource ##
 
