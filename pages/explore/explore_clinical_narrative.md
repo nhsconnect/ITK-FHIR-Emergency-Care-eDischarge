@@ -10,10 +10,22 @@ summary: "Gives information about the Clinical narrative section"
 {% include custom/section.warnbanner.html %}
 
 ## Clinical Narrative Section Content##
-The Clinical narrative section carries details of the clinical narrative. Where possible, very brief,items in bold are subheadings and should be formatted as such in any html sent:
+The Clinical narrative section carries details of the clinical narrative. Where possible, very brief,subheadings should be formatted as such in any html sent:
 
-
-- **Clinical narrative** - A description detailing a patient’s reason for attendance and results from the diagnostic and treatment process.
+<table width="100%">
+<tr>
+<th width="25%">Sub-section</th>
+<th width="45%">Description</th>
+<th width="15%">Cardinally</th>
+<th width="15%">Conformance</th>
+</tr>
+<tr>
+<td>Clinical narrative</td>
+<td>A description detailing a patient’s reason for attendance and results from the diagnostic and treatment process.</td>
+<td>1..1</td>
+<td>Mandatory</td>
+</tr>
+</table> 
 
 ##  Example Clinical Narrative Section ##
 

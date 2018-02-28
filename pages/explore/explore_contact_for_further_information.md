@@ -10,10 +10,22 @@ summary: "Gives information about the Contact for further information section"
 {% include custom/section.warnbanner.html %}
 
 #Contact for further information Content ##
-The Contact for further information section carries information about the contact details, items in bold are subheadings and should be formatted as such in any html sent:
+The Contact for further information section carries information about the contact details, subheadings should be formatted as such in any html sent:
 
-
-- **Contact for further information** - The contact details of whom to contact for information regarding this attendance.  E.g. The contact details may be for an individual or team (for example a phone number for the emergency department administrator). This is free text
+<table width="100%">
+<tr>
+<th width="25%">Sub-section</th>
+<th width="45%">Description</th>
+<th width="15%">Cardinally</th>
+<th width="15%">Conformance</th>
+</tr>
+<tr>
+<td>Contact for further information</td>
+<td>The contact details of whom to contact for information regarding this attendance.  E.g. The contact details may be for an individual or team (for example a phone number for the emergency department administrator). This is free text</td>
+<td>1..1</td>
+<td>Mandatory</td>
+</tr>
+</table> 
 
 
 ##  Example Contact for further information Section ##
