@@ -37,12 +37,6 @@ Note: the examples of section HTML in this specification show only example html 
 		<th width="13%">Associated Coded Profiles</th>
 	</tr>
 	<tr>
-		<th>Section Name</th>
-		<th>SNOMED Concept</th>
-		<th>Associated Coded Profiles</th>
-		<th>Conformance</th>
-	</tr>
-	<tr>
 		<td>
 			<a href="explore_allergies_and_adverse_reactions.html">Allergies and adverse reactions</a>
 		</td>
