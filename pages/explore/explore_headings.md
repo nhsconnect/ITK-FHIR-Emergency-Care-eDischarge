@@ -137,15 +137,6 @@ Note: the examples of section HTML in this specification show only example html 
 	</tr>
 	<tr>
 		<td>
-			<a href="explore_part_research.html">Participation in research</a>
-		</td>
-		<td>886751000000102</td>
-		<td>0..1</td>
-		<td>Optional</td>
-		<td>0</td>
-	</tr>
-	<tr>
-		<td>
 			<a href="explore_patient_demographics.html">Patient demographics</a>
 		</td>
 		<td>886731000000109</td>
