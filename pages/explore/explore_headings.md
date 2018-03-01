@@ -8,6 +8,7 @@ summary: "Overview of the Emergency Care eDischarge headings"
 ---
 
 {% include custom/search.warnbanner.html %}
+{% include custom/section.warnbanner.html %}
 
 ## Overview ##
 
@@ -223,7 +224,10 @@ Note: the examples of section HTML in this specification show only example html 
 This diagram illustrates the sections used in Emergency Care eDischarge and which sections allow coded representation of the section text. 
 
 
-<img src="images/explore/EC_composition_overview.png" style="height:90%;max-height: 90%;"/>
+Due to the size of the image, this example is best viewed with the navigation side bar switched off <img src="images/engage/nav_shot.png" style="width:8%;max-width: 8%;">.
+
+
+<img src="images/explore/EC_composition_overview.png" style="width:auto;height: auto;"/>
 
 
 
@@ -231,6 +235,6 @@ The text sections are carried in the FHIR composition resource.
 This is profiled as the [ITK-EC-Compostion](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-EC-Composition-1)
 
 
-{% include custom/section.warnbanner.html %}
+
 
 
