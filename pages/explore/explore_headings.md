@@ -42,8 +42,8 @@ Note: the examples of section HTML in this specification show only example html 
 		</td>
 		<td>886921000000105</td>
 		<td>1..1</td>
-		<td>Mandatory</td>
-		<td>3</td>
+		<td>Required</td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td>
@@ -87,7 +87,7 @@ Note: the examples of section HTML in this specification show only example html 
 		</td>
 		<td>886811000000106</td>
 		<td>1..1</td>
-		<td>Mandatory</td>
+		<td>Required</td>
 		<td>1</td>
 	</tr>
 	<tr>
@@ -104,9 +104,9 @@ Note: the examples of section HTML in this specification show only example html 
 			<a href="explore_gp_practice.html">GP practice</a>
 		</td>
 		<td>886711000000101</td>
-    	<td>0..1</td>
-		<td>Required</td>
-		<td>0</td>
+    	<td>1..1</td>
+		<td>Mandatory</td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td>
@@ -132,7 +132,7 @@ Note: the examples of section HTML in this specification show only example html 
 		</td>
 		<td>933361000000108</td>
 		<td>0..1</td>
-		<td>Required</td>
+		<td>Optional</td>
 		<td>3</td>
 	</tr>
 	<tr>
@@ -151,7 +151,7 @@ Note: the examples of section HTML in this specification show only example html 
 		<td>886731000000109</td>
     	<td>1..1</td>
 		<td>Mandatory</td>
-		<td>0</td>
+		<td>1</td>
 	</tr>
 	<tr>
 		<td>
@@ -167,8 +167,17 @@ Note: the examples of section HTML in this specification show only example html 
 			<a href="explore_plan_req_actions.html">Plan and requested actions</a>
 		</td>
 		<td>887201000000105</td>
-		<td>0..1</td>
-		<td>Required</td>
+		<td>1..1</td>
+		<td>Mandatory</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="explore_presenting_complaints_or_issues.html">Presenting complaints or issues</a>
+		</td>
+		<td>886891000000102</td>
+		<td>1..1</td>
+		<td>Mandatory</td>
 		<td>0</td>
 	</tr>
 	<tr>
@@ -195,7 +204,16 @@ Note: the examples of section HTML in this specification show only example html 
 		</td>
 		<td>886931000000107</td>
 		<td>0..1</td>
-		<td>Optional</td>
+		<td>Required</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="explore_safeguarding.html">Safeguarding</a>
+		</td>
+		<td>886931000000107</td>
+		<td>0..1</td>
+		<td>Required</td>
 		<td>0</td>
 	</tr>
 	<tr>
@@ -204,7 +222,7 @@ Note: the examples of section HTML in this specification show only example html 
 		</td>
 		<td>1078901000000109</td>
 		<td>0..1</td>
-		<td>Optional</td>
+		<td>|required</td>
 		<td>0</td>
 	</tr>
 </table>
