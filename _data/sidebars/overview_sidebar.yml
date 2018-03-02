@@ -85,9 +85,9 @@ entries:
         - title: Discharge details
           url: /explore_discharge_details.html
           output: web
-        - title: Distribution list
-          url: /explore_distribution_list.html
-          output: web
+        # - title: Distribution list
+          # url: /explore_distribution_list.html
+          # output: web
         - title: GP Practice
           url: /explore_gp_practice.html
           output: web
