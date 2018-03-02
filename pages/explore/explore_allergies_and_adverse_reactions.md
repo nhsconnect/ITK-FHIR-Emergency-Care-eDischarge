@@ -43,7 +43,7 @@ Where a value is marked as Text derived from SNOMED CT the section on [construct
    <td>The agent such as food, drug or substances that has caused or may cause an allergy, intolerance or adverse reaction in this patient. Or "No known drug allergies or adverse reactions" Or "Information not available"</td>
    <td>1 only</td>
    <td>mandatory</td>
-   <td>"Choice of Text or Text derived from SNOMED CT  -  constraint: SNOMED CT: Allergy Archetypes Drug Groups. NHS dm+d TF,NHS dm+d TFG,NHS dm+d VMP,NHS dm+d AMP,NHS dm+d Ingredients,NHS dm+d Combination drug VTMs,"</td>
+   <td>Choice of Text or Text derived from SNOMED CT  -  constraint: SNOMED CT: Allergy Archetypes Drug Groups. NHS dm+d TF,NHS dm+d TFG,NHS dm+d VMP,NHS dm+d AMP,NHS dm+d Ingredients,NHS dm+d Combination drug VTMs,</td>
   </tr>
   <tr>
    <th>Reaction details cluster</th>
