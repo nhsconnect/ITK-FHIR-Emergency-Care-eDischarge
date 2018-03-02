@@ -10,22 +10,48 @@ summary: "Gives information about the Diagnoses section"
 {% include custom/section.warnbanner.html %}
 
 ## Diagnoses Section Content##
-The Diagnoses section carries information about Diagnoses subheadings should be formatted as such in any html sent:
+The Diagnoses section carries information about Diagnoses. Elements should be formatted as sub headings in any html sent.
 
-<table width="100%">
-<tr>
-<th width="25%">Sub-section</th>
-<th width="45%">Description</th>
-<th width="15%">Cardinally</th>
-<th width="15%">Conformance</th>
-</tr>
-<tr>
-<td>Confirmed diagnosis</td>
-<td>Active diagnoses being treated.
-Including the stage of the disease where relevant.</td>
-<td>0..*</td>
-<td>Required</td>
-</tr>
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+ <tbody>
+  <tr>
+   <td>Diagnoses</td>
+   <td>A list of the patient's diagnoses.</td>
+   <td>1 only</td>
+   <td>mandatory</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Diagnosis name</td>
+   <td>Confirmed diagnosis (or symptom); active diagnosis being treated.</td>
+   <td>1 only</td>
+   <td>mandatory</td>
+   <td>Sent as per the ECDS Emergency Care Diagnosis code set (SNOMED CT). Where the ECDS diagnosis qualifier is 'suspected diagnosis', the chief complaint should be entered here (see implementation guidance).</td>
+  </tr>
+  <tr>
+   <td>Comment</td>
+   <td>Supporting text may be given covering diagnosis confirmation, active diagnosis being treated.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>Free text.</td>
+  </tr>
+ </tbody>
 </table>
 
 ##  Example Diagnoses Section ##
