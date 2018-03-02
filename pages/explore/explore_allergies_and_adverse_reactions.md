@@ -10,76 +10,78 @@ summary: "Gives information about the Allergies and adverse reactions section"
 {% include custom/section.warnbanner.html %}
 
 ## Allergies and Adverse Reactions Section Content##
-The Allergies and adverse reactions section carries information about the patient's allergies and adverse reactions, subheadings should be formatted as such in any html sent:
+The Allergies and adverse reactions section carries information about the patient's allergies and adverse reactions. Elements should be formatted as subheadings in any html sent.
+Where a value is marked as Text derived from SNOMED CT the section on [constructing clinical coded structures](build_allergy_lists.html) should be consulted for further information. 
 
-<table width="100%">
-<tr>
-<th width="25%">Sub-section</th>
-<th width="45%">Description</th>
-<th width="15%">Cardinally</th>
-<th width="15%">Conformance</th>
-</tr>
-<tr>
-<td>Causative agent</td>
-<td>The agent such as food, drug or substances that has caused or may cause an allergy, intolerance or adverse reaction in this patient.</td>
-<td>1..1</td>
-<td>Mandatory</td>
-</tr>
-<tr>
-<td>Description of the reaction</td>
-<td>A description of the manifestation of the allergic or adverse reaction experienced by the patient. This may include:
-<ul>
-<li>manifestation, eg, skin rash</li>
-<li>type of reaction (allergic, adverse, intolerance)</li>
-<li>severity of the reaction</li>
-<li>certainty</li>
-<li>evidence (eg, results of investigations).</li>
-</ul>
-</td>
-<td>0..1</td>
-<td>Required</td>
-</tr>
-<tr>
-<td>Severity</td>
-<td>A description of the severity of the reaction.</td>
-<td>0..1</td>
-<td>Required</td>
-</tr>
-<tr>
-<td>Certainty</td>
-<td>A description of the certainty that the stated causative agent caused the allergic or adverse reaction.
-</td>
-<td>0..1</td>
-<td>Required</td>
-</tr>
-<tr>
-<td>Evidence</td>
-<td>Results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests
-</td>
-<td>0..1</td>
-<td>Required</td>
-</tr>
-<tr>
-<td>Probability of recurrence</td>
-<td>Probability of the reaction (allergic, adverse, intolerant) occurring.
-</td>
-<td>0..1</td>
-<td>Required</td>
-</tr>
-<tr>
-<td>Date first experienced</td>
-<td>When the reaction was first experienced. May be a date or partial date (eg, year) or free text (eg, during childhood).</td>
-<td>0..1</td>
-<td>Required</td>
-</tr>
-<tr>
-<td>Comment</td>
-<td>Any comments related to the allergy or adverse reaction</td>
-<td>0..1</td>
-<td>Optional</td>
-</tr>
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+ <tbody>
+  <tr>
+   <td>Allergies and adverse reactions</td>
+   <td>The details of any known allergies, intolerances or adverse reactions.</td>
+   <td>1 only</td>
+   <td>required</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Causative agent</td>
+   <td>The agent such as food, drug or substances that has caused or may cause an allergy, intolerance or adverse reaction in this patient. Or "No known drug allergies or adverse reactions" Or "Information not available"</td>
+   <td>1 only</td>
+   <td>mandatory</td>
+   <td>"Choice of Text or Text derived from SNOMED CT  -  constraint: SNOMED CT: Allergy Archetypes Drug Groups. NHS dm+d TF,NHS dm+d TFG,NHS dm+d VMP,NHS dm+d AMP,NHS dm+d Ingredients,NHS dm+d Combination drug VTMs,"</td>
+  </tr>
+  <tr>
+   <th>Reaction details cluster</td>
+   <th>&nbsp;</th>
+   <th>&nbsp;</th>
+   <th>&nbsp;</th>
+   <th>&nbsp;</th>
+  </tr>
+  <tr>
+   <td>Description of reaction</td>
+   <td>A description of the manifestation of the allergic or adverse reaction experienced by the patient. For example, skin rash.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>Choice of Text or derived from SNOMED CT - constraint: SNOMED CT. Clinical finding. Any SNOMED CT term in the Clinical Finding hierarchy. Constraint binding: [SNOMED CT] subset=Clinical Finding</td>
+  </tr>
+  <tr>
+   <td>Severity</td>
+   <td>A description of the severity of the reaction</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>Text derived from SNOMED CT - Mild [The reaction was mild.][SNOMED-CT::255604002] (Mild (qualifier value))•  Moderate [The reaction was moderate.][SNOMED-CT::6736007] (Moderate (severity modifier) (qualifier value))•  Severe [The reaction was severe.][SNOMED-CT::24484000] (Severe (severity modifier) (qualifier value))•  Life threatening [The reaction was life-threatening.][SNOMED-CT::442452003] (Life threatening severity (qualifier value))•  Fatal [The reaction was fatal.][SNOMED-CT::399166001] (Fatal (qualifier value))</td>
+  </tr>
+  <tr>
+   <td>Certainty</td>
+   <td>A description of the certainty that the stated causative agent caused the allergic or adverse reaction.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>Text derived from SNOMED CT - Unlikely [The reaction is thought unlikely to have been caused by the agent.][SNOMED-CT::1491118016]•  Likely [The reaction is thought likely to have been caused by the agent.][SNOMED-CT::5961011]•  Certain [The agent is thought to be certain to have caused the reaction but this has not been confirmed by challenge testing.][SNOMED-CT::255545003] (Definite (qualifier value))•  Confirmed by challenge testing [The reaction to the agent has been confirmed by challenge testing or other concrete evidence.][SNOMED-CT::410605003] (Confirmed present (qualifier value))</td>
+  </tr>
+  <tr>
+   <td>Comment</td>
+   <td>Any additional comment or clarification about the adverse reaction.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>Free text</td>
+  </tr>
+ </tbody>
 </table>
-
 
 ##  Example Allergies and Adverse Reactions Sections ##
 
