@@ -46,7 +46,7 @@ Where a value is marked as Text derived from SNOMED CT the section on [construct
    <td>"Choice of Text or Text derived from SNOMED CT  -  constraint: SNOMED CT: Allergy Archetypes Drug Groups. NHS dm+d TF,NHS dm+d TFG,NHS dm+d VMP,NHS dm+d AMP,NHS dm+d Ingredients,NHS dm+d Combination drug VTMs,"</td>
   </tr>
   <tr>
-   <th>Reaction details cluster</td>
+   <th>Reaction details cluster</th>
    <th>&nbsp;</th>
    <th>&nbsp;</th>
    <th>&nbsp;</th>
