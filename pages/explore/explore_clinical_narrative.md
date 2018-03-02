@@ -10,22 +10,42 @@ summary: "Gives information about the Clinical narrative section"
 {% include custom/section.warnbanner.html %}
 
 ## Clinical Narrative Section Content ##
-The Clinical narrative section carries details of the clinical narrative. Where possible, very brief,subheadings should be formatted as such in any html sent:
+The Clinical narrative section carries details of the clinical narrative. Where possible, very brief. Elements should be formatted as sub headings in any html sent.
 
-<table width="100%">
-<tr>
-<th width="25%">Sub-section</th>
-<th width="45%">Description</th>
-<th width="15%">Cardinally</th>
-<th width="15%">Conformance</th>
-</tr>
-<tr>
-<td>Clinical narrative</td>
-<td>A description detailing a patient’s reason for attendance and results from the diagnostic and treatment process.</td>
-<td>1..1</td>
-<td>Mandatory</td>
-</tr>
-</table> 
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+ <tbody>
+  <tr>
+   <td>Clinical narrative</td>
+   <td>A brief description of the encounter.</td>
+   <td>1 only</td>
+   <td>mandatory</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Clinical narrative</td>
+   <td>A description detailing a patient's reason for attendance, results from the diagnostic and treatment process.</td>
+   <td>1 only</td>
+   <td>mandatory</td>
+   <td>Free text.</td>
+  </tr>
+ </tbody>
+</table>
 
 ##  Example Clinical Narrative Section ##
 
