@@ -10,10 +10,49 @@ summary: "Gives information about the Safety alerts section"
 {% include custom/section.warnbanner.html %}
 
 ## Safety Alerts Section Content##
-The Safety alerts section carries safety alerts associated with the patient,items in bold are subheadings and should be formatted as such in any html sent:
+The Safety alerts section carries safety alerts associated with the patient. Elements should be formatted as sub headings in any html sent.
 
-- **Risks to self** - Risks the patient poses to themself, eg, suicide, overdose, self-harm, self-neglect.
-- **Risks to others** - Risks to care professional or third party.
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+ <tbody>
+  <tr>
+   <td>Safeguarding</td>
+   <td>Details of any identified safeguarding concerns.</td>
+   <td>&nbsp;</td>
+   <td>required</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Safeguarding issue</td>
+   <td>A record of any identification of concerns regarding safeguarding during attendance</td>
+   <td>0 to many</td>
+   <td>required</td>
+   <td>ECDS SNOMED CT Safeguarding subset.Text.</td>
+  </tr>
+  <tr>
+   <td>Comment</td>
+   <td>A comment providing further detail on a safeguarding issue.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>Free text</td>
+  </tr>
+ </tbody>
+</table>
 
 ##  Example Safety Alerts Section ##
 
