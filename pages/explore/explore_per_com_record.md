@@ -11,12 +11,50 @@ summary: "Gives information about the Person completing record section"
 
 ## Person Completing Record Section Content##
 The Person completing record section carries information about the person who completed the record. Items in bold are subheadings and should be formatted as such in any html sent:
-
-- **Name** 
-- **Designation or role**
-- **Grade**
-- **Specialty**
-- **Date completed**
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+ <tbody>
+  <tr>
+   <td>Person completing record</td>
+   <td>The details of the person who filled out the record.</td>
+   <td>1 only</td>
+   <td>mandatory</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Name</td>
+   <td>The name of the person completing the record, preferably in a structured format.</td>
+   <td>1 only</td>
+   <td>mandatory</td>
+   <td>The person name as held on the source system. Where possible this should be broken down into its constituent parts (prefix, given name, family name, and suffix).</td>
+  </tr>
+  <tr>
+   <td>Professional identifier</td>
+   <td>Professional identifier for the person completing the record e.g., GMC number, HCPC number etc or the personal identifier used by the local organisation.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+</tr>
+<tr>
+   <td>The professional identifier type and the identifier itself as held on the source system. <a href="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/prod/professional_registration_issuer_code_de.asp?shownav=1"/></a><professional registration issuer code <a href="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/prod/professional_registration_entry_identifier_de.asp?shownav=1"/></a>
+   </td>professional registration entry identifier. An identifier for the person completing the record will be sent (but may not be displayed in the rendered message).</td>
+  </tr>
+ </tbody>
+</table>
 
 
 ## Example Person Completing Record Section ##
