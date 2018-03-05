@@ -48,8 +48,6 @@ The Person completing record section carries information about the person who co
    <td>Professional identifier for the person completing the record e.g., GMC number, HCPC number etc or the personal identifier used by the local organisation.</td>
    <td>0 to 1</td>
    <td>required</td>
-</tr>
-<tr>
    <td>The professional identifier type and the identifier itself as held on the source system. <a href="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/prod/professional_registration_issuer_code_de.asp?shownav=1"/></a><professional registration issuer code <a href="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/prod/professional_registration_entry_identifier_de.asp?shownav=1"/></a>
    professional registration entry identifier. An identifier for the person completing the record will be sent (but may not be displayed in the rendered message).</td>
   </tr>
