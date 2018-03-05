@@ -98,9 +98,9 @@ entries:
         - title: Information and advice given
           url: /explore_information_and_advice_given.html
           output: web
-        - title: Legal information 
-          url: /explore_legal_info.html
-          output: web
+        # - title: Legal information 
+          # url: /explore_legal_info.html
+          # output: web
       - title: M to P
         url: /explore_allergies_and_adverse_reactions.html
         output: web
