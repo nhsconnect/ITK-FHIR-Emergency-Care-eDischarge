@@ -45,9 +45,6 @@ The Discharge details section carries details of the patient's discharge. Elemen
    <td>"Sent as per the ECDS Emergency Care DischargeStatus code set (SNOMED CT):</td>
   </tr>
   <tr>
-   <td>      ."</td>
-  </tr>
-  <tr>
    <td>Date/time of discharge</td>
    <td>The actual date of discharge</td>
    <td>1 only</td>
