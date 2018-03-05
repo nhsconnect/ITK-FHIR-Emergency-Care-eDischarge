@@ -10,7 +10,8 @@ summary: "Gives information about the Person completing record section"
 {% include custom/section.warnbanner.html %}
 
 ## Person Completing Record Section Content##
-The Person completing record section carries information about the person who completed the record. Items in bold are subheadings and should be formatted as such in any html sent:
+The Person completing record section carries information about the person who completed the record. Elements should be formatted as sub headings in any html sent.
+
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
