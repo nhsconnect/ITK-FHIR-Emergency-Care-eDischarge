@@ -35,6 +35,10 @@ All PRSB headings and subheadings have been updated following release of the ver
 
 Added Binary resource profile to allow support for attachments.
 
+**Specification Structure**
+
+Added new sub menus under Design and build section for "Use of Attachments" and "Rendering of Documents" these are place-holders for guidance to be issued in a later release.
+
   
 ## 2.0.0-alpha.1 ##
 First version published using Jekyll
