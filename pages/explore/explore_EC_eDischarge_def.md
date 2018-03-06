@@ -9,7 +9,7 @@ summary: "Emergency Care eDischarge Message Definition"
 
 {% include custom/search.warnbanner.html %}
 
-## Send Message Definition Overview ##
+## Emergency Care eDischarge Message Definition Overview ##
 
 This is the MessageDefinition instance for the ITK3 Emergency Care eDischarge document. 
 
