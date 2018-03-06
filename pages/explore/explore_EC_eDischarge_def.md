@@ -1,5 +1,5 @@
 ---
-title: eDischarge Message Definition
+title: Emergency Care eDischarge Message Definition
 keywords:  messaging, message definitions
 tags: [fhir,messaging,messagedefinitions]
 sidebar: foundations_sidebar
