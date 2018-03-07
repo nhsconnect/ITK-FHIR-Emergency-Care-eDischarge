@@ -17,7 +17,7 @@ FHIR resource profiles combined to support Emergency Care eDischarge FHIR Docume
 The Bundle consists of the following FHIR Resource Profiles.
 
 - **[ITK-Document-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Document-Bundle-1)** - An NHS Digital Bundle Profile to represent a container to collect a combination of the ITK FHIR Document resources.
-- **[ITK-EC-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-EC-Composition-1)** - An NHS Digital Profile for eDischarge FHIR Documents. 
+- **[ITK-ECD-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-ECD-Composition-1)** - An NHS Digital Profile for Emergency Care Discharge FHIR Documents. 
 - **[CareConnect-ITK-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)** - A CareConnect derived NHS Digital Profile for encounter. The encounter resource represents an encounter between a care professional and the patient (or patient's record).
 - **[ITK-Medication-List-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Medication-List-1)** - An NHS Digital Profile for recording a snapshot of the list of Medications for the patient.
 - **[CareConnect-MedicationStatement-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationStatement-1)** - A CareConnect Profile for medication statements. The MedicationStatement Resource is a record of a medication that is being consumed by a patient.
