@@ -10,7 +10,7 @@ summary: "Gives information about the Safeguarding section"
 {% include custom/section.warnbanner.html %}
 
 ## Safeguarding Section Content ##
-The Safeguarding section carries details of any safeguarding concerns. Elements should be formatted as subheadings in any html sent:
+The Safeguarding section carries details of any safeguarding concerns. Elements should be formatted as subheadings in any html sent.
 
 <table style="width:100%;max-width: 100%;">
 	<thead>
