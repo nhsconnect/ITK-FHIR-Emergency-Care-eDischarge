@@ -45,41 +45,6 @@ The Attendance details section carries information about Attendance details used
    <td>mandatory</td>
    <td>The date as recorded on the PAS</td>
   </tr>
-  <tr>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-  </tr>
-  <tr>
-   <td>Section</td>
-   <td>Description</td>
-   <td>Cardinality</td>
-   <td>MRO*</td>
-   <td>Values</td>
-  </tr>
-  <tr>
-   <td>Referrer details</td>
-   <td>Details of the individual or team who referred the patient.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>&nbsp;</td>
-  </tr>
-  <tr>
-   <td>Element</td>
-   <td>Description</td>
-   <td>Cardinality</td>
-   <td>MRO*</td>
-   <td>Values</td>
-  </tr>
-  <tr>
-   <td>Referrer details</td>
-   <td>Name, role, grade, organisation and contact details of referrer. If not an individual, this could be e.g. GP surgery, department, specialty, sub-specialty, educational institution, mental health team etc. Also needs to include self-referral.</td>
-   <td>1 only</td>
-   <td>mandatory</td>
-   <td>Sent as per the ECDS Emergency Care Attendance Source code set (SNOMED CT).</td>
-  </tr>
  </tbody>
 </table>
 
