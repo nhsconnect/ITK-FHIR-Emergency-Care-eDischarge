@@ -80,7 +80,7 @@ Note: the examples of section HTML in this specification show only example html 
 		<td>887161000000102</td>
 		<td>0..1</td>
 		<td>Required</td>
-		<td>1</td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td>
@@ -98,7 +98,7 @@ Note: the examples of section HTML in this specification show only example html 
 		<td>887261000000109</td>
     	<td>1..1</td>
 		<td>Mandatory</td>
-		<td>0</td>
+		<td>4</td>
 	</tr>
 	<tr>
 		<td>
@@ -134,7 +134,7 @@ Note: the examples of section HTML in this specification show only example html 
 		<td>933361000000108</td>
 		<td>0..1</td>
 		<td>Optional</td>
-		<td>3</td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td>
@@ -170,7 +170,7 @@ Note: the examples of section HTML in this specification show only example html 
 		<td>886891000000102</td>
 		<td>1..1</td>
 		<td>Mandatory</td>
-		<td>0</td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td>
@@ -179,7 +179,7 @@ Note: the examples of section HTML in this specification show only example html 
 		<td>887171000000109</td>
 		<td>0..1</td>
 		<td>Required</td>
-		<td>1</td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td>
@@ -214,7 +214,7 @@ Note: the examples of section HTML in this specification show only example html 
 		</td>
 		<td>1078901000000109</td>
 		<td>0..1</td>
-		<td>|required</td>
+		<td>Required</td>
 		<td>0</td>
 	</tr>
 </table>
