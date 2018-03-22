@@ -49,7 +49,7 @@ The Plan and requested actions section carries information about planned and req
 
 ##  Example Plan and Requested Actions Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/1bdcde4481d7de7dfdf7bcc266529e10.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/1cfc7a85e79b3f9cfaf260c7d8c2f24e.js"></script>
 
 ## Coded Resources ##
 
