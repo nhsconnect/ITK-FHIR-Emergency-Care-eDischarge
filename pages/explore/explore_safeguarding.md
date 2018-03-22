@@ -56,7 +56,7 @@ The Safeguarding section carries details of any safeguarding concerns. Elements 
 
 ##  Example Safeguarding Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/598b9ff335715b03d0264a03f2442d34.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/11ae32acda7827d537f2aa6e56327f5e.js"></script>
 
 ## Coded Resources ##
 
