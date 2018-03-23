@@ -140,11 +140,11 @@ entries:
         - title: Referrer details
           url: /explore_referrer_details.html
           output: web
-        - title: Safety alerts
-          url: /explore_safety_alerts.html
-          output: web
         - title: Safeguarding
           url: /explore_safeguarding.html
+          output: web
+        - title: Safety alerts
+          url: /explore_safety_alerts.html
           output: web
         - title: Senior reviewing clinician
           url: /explore_senior_reviewing_clinician.html
