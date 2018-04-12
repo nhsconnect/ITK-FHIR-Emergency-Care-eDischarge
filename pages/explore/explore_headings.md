@@ -224,7 +224,7 @@ Note: the examples of section HTML in this specification show only example html 
 This diagram illustrates the sections used in Emergency Care eDischarge and which sections allow coded representation of the section text. 
 
 
-Due to the size of the image, this example is best viewed with the navigation side bar switched off <img src="images/engage/nav_shot.png" style="width:8%;max-width: 8%;">.
+<a href="images/explore/EC_composition_overview.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 
 <img src="images/explore/EC_composition_overview.png" style="width:auto;height: auto;"/>
