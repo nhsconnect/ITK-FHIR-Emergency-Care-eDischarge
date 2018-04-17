@@ -18,7 +18,7 @@ This is the MessageDefinition instance for the ITK3 Emergency Care eDischarge do
 - **MessageDefinition:** ITK-EC_eDischarge-MessageDefinition-Instance-1
 
 
-<script src="https://gist.github.com/unicorn150161/946b8fa0ecdc65ab7c9aec698fc31d6d.js"></script>">
+<script src="https://gist.github.com/IOPS-DEV/2167ef426c2d4c76d3479153e83745cc.js"></script>
 ---
 
 
