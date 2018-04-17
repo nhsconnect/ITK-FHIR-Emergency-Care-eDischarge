@@ -14,7 +14,7 @@ summary: The journey outlines the approach of developing FHIR ITK Messaging Solu
 
 The Journey is a guide from imagination and exploring to developing local FHIR ITK Messaging Solutions using NHS Digital message profiles all the way to deploying a live FHIR ITK Messaging Solution.  
 
-
+{% include custom/messaging_overview.svg %}
 
 The above steps outline a complete ITK Messaging Solution journey.
 
