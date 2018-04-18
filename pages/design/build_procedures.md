@@ -19,7 +19,7 @@ The FHIR resources are profiled to create the procedure list as follows:
 ## List ##
 This resource acts as a container for the procedures. The following is an example of the main elements used:
 
-- identifier - uniquely identifies this list of conditions (UUIDs)
+- identifier - uniquely identifies this list of procedures (UUIDs)
 - status - should always be "current"
 - mode - should always be "snapshot" 
 - subject - a reference to the patient whose procedure list this is
@@ -32,10 +32,10 @@ This resource acts as a container for the procedures. The following is an exampl
 This resource is used to record detailed information about a procedure.The following is a example of the elements that can be used: 
 
 - identifier - uniquely identifies this procedure (UUIDs)
-- category - surgical, diagnostic etc 
-- Severity - subjective severity of condition
+- status - completed, aborted etc 
+- category - Classification of the procedure
 - code - identification of the procedure
-- bodySite - anatomical location, if relevant
+- performed - when procedure was performed
 - subject - the patient
 - outcome - the result of procedure
 
