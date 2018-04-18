@@ -50,7 +50,7 @@ Example to show an procedure list
 
 **Procedure List**
 
-<script src="https://gist.github.com/IOPS-DEV/910864603.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/204999ed7c143fe59fa754b8f0b49bad.js"></script>
 
 **Procedure Example**
 
