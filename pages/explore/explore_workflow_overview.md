@@ -13,7 +13,7 @@ summary: "Overview of the work flow section"
 
 ## ITK Work Flow For eDischarge ##
 
-This section documents work flow associated with the eDischarge. The subsections show the resources that may be associated with work flow.
+This section documents work flow associated with the Emergency Care eDischarge. The subsections show the resources that may be associated with work flow.
  
 
 

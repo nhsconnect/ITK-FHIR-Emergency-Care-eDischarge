@@ -57,7 +57,7 @@ The Attendance details section carries information about Attendance details used
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR eDischarge does not currently support coded assessment scales.
+- The ITK FHIR Emergency Care eDischarge does not currently support coded attendance details.
 
 
 

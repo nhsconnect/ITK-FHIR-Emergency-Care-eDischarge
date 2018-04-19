@@ -55,7 +55,7 @@ The Presenting complaints or issues section carries information about the compla
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR eDischarge Emergency Care does not currently support coded presenting complaints or issues information.
+- The ITK FHIR Emergency Care eDischarge does not currently support coded presenting complaints or issues information.
 
 
 

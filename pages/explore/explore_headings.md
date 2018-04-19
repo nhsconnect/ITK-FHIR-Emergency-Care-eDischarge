@@ -1,5 +1,5 @@
 ---
-title: Emergency care eDischarge Headings
+title: Emergency Care eDischarge Headings
 keywords:  messaging
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
@@ -12,7 +12,7 @@ summary: "Overview of the Emergency Care eDischarge headings"
 
 ## Overview ##
 
-This section provides a list of the AMoRC headings used for text sections in the ITK FHIR Emergency care eDischarge based on the "Standards for the clinical structure and content of patient records" documentation. 
+This section provides a list of the PRSB headings used for text sections in the ITK FHIR Emergency Care eDischarge based on the "Standards for the clinical structure and content of patient records" documentation. 
 
 This section lists the following
 

@@ -62,7 +62,7 @@ The Senior reviewing clinician section carries information about the senior revi
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR eDischarge Emergency Care does not currently support coded Senior reviewing clinician information.
+- The ITK FHIR Emergency Care eDischarge  does not currently support coded senior reviewing clinician information.
 
 
 
