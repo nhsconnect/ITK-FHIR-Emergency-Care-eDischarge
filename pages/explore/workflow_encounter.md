@@ -16,7 +16,7 @@ The Emergency Care eDischarge does not support any real "workflow" but uses the 
 - When the patient was admitted
 - Why the patient was admitted
 - When the patient was discharged
-- When the patient was discharged to
+- Where the patient was discharged to
 - Who was involved in the encounter
 
 The encounter can be referenced by the following resources:
