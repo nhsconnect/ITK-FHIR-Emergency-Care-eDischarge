@@ -220,7 +220,7 @@ Note: the examples of section HTML in this specification show only example html 
 </table>
 
 
-## Overview of Emergency care eDischarge Sections and Coded profiles ##
+## Overview of Emergency Care eDischarge Sections and Coded profiles ##
 This diagram illustrates the sections used in Emergency Care eDischarge and which sections allow coded representation of the section text. 
 
 
