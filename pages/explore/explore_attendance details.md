@@ -10,7 +10,7 @@ summary: "Gives information about the Attendance details section"
 {% include custom/section.warnbanner.html %}
 
 ## Attendance Details Section Content ##
-The Attendance details section carries information about Attendance details used. Elements should be formatted as sub headings in any html sent.
+The Attendance details section carries information about Attendance details used. Elements should be formatted as sub headings in any HTML sent.
 
 
 <table style="width:100%;max-width: 100%;">
