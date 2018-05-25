@@ -11,7 +11,7 @@ summary: "The ITK handling specification usage."
 
 ## Overview ##
 
-There are a number of extensions added to the ITK messageHeader profile which are referred to as the [Handling specification](https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_hand_spec.html). These extensions are used to control messaging behaviour such as when to send an acknowledgement. 
+There are a number of extensions added to the ITK messageHeader Profile which are referred to as the [Handling specification](https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_hand_spec.html). These extensions are used to control messaging behaviour such as when to send an acknowledgement. 
 
 
 
