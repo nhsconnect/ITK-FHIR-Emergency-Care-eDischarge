@@ -5,10 +5,10 @@ tags: [overview]
 sidebar: overview_sidebar
 permalink: index.html
 toc: false
-summary: A brief introduction to getting started with the ITK Emergency Care eDischarge.
+summary: A brief introduction to getting started with the ITK3 Emergency Care eDischarge.
 ---
 
-{% include important.html content="This site is under active development by NHS Digital and is intended to provide all the technical resources you need to successfully develop the ITK Emergency Care eDischarge components of FHIR messaging. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
+{% include important.html content="This site is under active development by NHS Digital and is intended to provide all the technical resources you need to successfully develop the ITK3 Emergency Care eDischarge components of FHIR messaging. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
 
 {% include warning.html content="This site is provided for information only and is intended for those engaged with NHS Digital in the development of FHIR Messaging. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
@@ -18,7 +18,7 @@ summary: A brief introduction to getting started with the ITK Emergency Care eDi
 
 The Emergency Care eDischarge  Specification supports the following care communications:
 
-**Emergency Care eDischarge Summary Document** – An ITK FHIR Document containing  information supporting a discharge typically between a hospital emergency care department and a GP practice.
+**Emergency Care eDischarge Summary Document** – An ITK3 FHIR Document containing information supporting a discharge typically between a hospital emergency care department and a GP practice.
    
 FHIR Messaging components specified within this site have been developed by NHS Digital and use some of the CareConnect profiles created in collaboration with the INTEROPen community. 
 
@@ -26,12 +26,12 @@ The INTEROPen vision is to create a library of nationally defined HL7® FHIR® r
 
 Find out more on the [INTEROPen website](http://interopen.org/).
 
-This documentation provides a FHIR document implmentation of the work done by the Academy of Medical Royal Colleges (AoMRC) in defining headings for clinical documents.
+This documentation provides a FHIR document implementation of the work done by the Academy of Medical Royal Colleges (AoMRC) in defining headings for clinical documents.
  
 {% include custom/section.warnbanner.html %}
 
 # Using this guide #
 
-This guide has been created to support the adoption of NHS Digital defined FHIR Messages. As such the site is structured around stakeholders involved in building FHIR ITK Messaging Solutions including  ITK Messaging Solution users, developers and architects.  
+This guide has been created to support the adoption of NHS Digital defined FHIR Messages. As such the site is structured around stakeholders involved in building FHIR ITK3 Messaging Solutions including  ITK3 Messaging Solution users, developers and architects.  
 
 
