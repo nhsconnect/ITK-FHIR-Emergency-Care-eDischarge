@@ -93,15 +93,6 @@ Note: the examples of section HTML in this specification show only example HTML 
 	</tr>
 	<tr>
 		<td>
-			<a href="explore_distribution_list.html">Distribution list</a>
-		</td>
-		<td>887261000000109</td>
-    	<td>1..1</td>
-		<td>Mandatory</td>
-		<td>4</td>
-	</tr>
-	<tr>
-		<td>
 			<a href="explore_gp_practice.html">GP practice</a>
 		</td>
 		<td>886711000000101</td>
@@ -111,18 +102,9 @@ Note: the examples of section HTML in this specification show only example HTML 
 	</tr>
 	<tr>
 		<td>
-			<a href="explore_information_given.html">Information and advice given</a>
+			<a href="explore_information_and_advice_given.html">Information and advice given</a>
 		</td>
 		<td>1052951000000105</td>
-		<td>0..1</td>
-		<td>Required</td>
-		<td>0</td>
-	</tr>
-	<tr>
-		<td>
-			<a href="explore_legal_info.html">Legal information</a>
-		</td>
-		<td>886961000000102</td>
 		<td>0..1</td>
 		<td>Required</td>
 		<td>0</td>
@@ -183,7 +165,7 @@ Note: the examples of section HTML in this specification show only example HTML 
 	</tr>
 	<tr>
 		<td>
-			<a href="explore_referrer.html">Referrer details</a>
+			<a href="explore_referrer_details.html">Referrer details</a>
 		</td>
 		<td>1052891000000108</td>
 		<td>0..1</td>
@@ -204,15 +186,6 @@ Note: the examples of section HTML in this specification show only example HTML 
 			<a href="explore_safeguarding.html">Safeguarding</a>
 		</td>
 		<td>886931000000107</td>
-		<td>0..1</td>
-		<td>Required</td>
-		<td>0</td>
-	</tr>
-	<tr>
-		<td>
-			<a href="explore_social_context.html">Senior reviewing clinician</a>
-		</td>
-		<td>1078901000000109</td>
 		<td>0..1</td>
 		<td>Required</td>
 		<td>0</td>
