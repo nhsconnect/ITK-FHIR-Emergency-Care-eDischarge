@@ -62,6 +62,6 @@ The Safeguarding section carries details of any safeguarding concerns. Elements 
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Emergency Care eDischarge does not currently support a coded safeguarding.
+- The ITK3 FHIR Emergency Care eDischarge does not currently support a coded safeguarding.
 
 
