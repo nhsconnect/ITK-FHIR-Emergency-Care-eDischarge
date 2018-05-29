@@ -39,7 +39,13 @@ The Plan and requested actions section carries information about planned and req
 		</tr>
   <tr>
    <td>Action</td>
-   <td>Including planned investigations, procedures, Interventions and treatment for a patient's identified conditions and priorities. For each action the following should be identified: a) person responsible - name and designation / department / hospital / patient etc or role (eg GP) responsible for carrying out the proposed action, and where action should take place.b) status - requested, planned or completed.                                c) When action requested for - requested date, time, or period - as relevant.d) suggested strategies - suggested strategies for potential problems.e) outcome expectations, including patient's expectations</td>
+   <td>Including planned investigations, procedures, Interventions and treatment for a patient's identified conditions and priorities. For each action the following should be identified:
+<ul>
+<li>a) person responsible - name and designation / department / hospital / patient etc or role (eg GP) responsible for carrying out the proposed action, and where action should take place.</li>
+<li>b) status - requested, planned or completed.</li>                                
+<li>c) When action requested for - requested date, time, or period - as relevant.</li>
+<li>d) suggested strategies - suggested strategies for potential problems.</li>
+<li>e) outcome expectations, including patient's expectations</li></td>
    <td>1 to many</td>
    <td>mandatory</td>
    <td>A record of the planned and requested actions. May be structured (table), with actions, names, dates, status, location, strategies, or free text</td>

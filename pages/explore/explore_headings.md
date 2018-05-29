@@ -53,7 +53,7 @@ Note: the examples of section HTML in this specification show only example HTML 
 		<td>1077881000000105</td>
 		<td>1..1</td>
 		<td>Mandatory</td>
-		<td>O</td>
+		<td>0</td>
 	</tr>
 	<tr>
 		<td>
@@ -204,7 +204,7 @@ This diagram illustrates the sections used in Emergency Care eDischarge and whic
 
 
 
-The text sections are carried in the FHIR composition resource. 
+The text sections are carried in the FHIR Composition Resource. 
 This is profiled as the [ITK-EC-Compostion](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-EC-Composition-1)
 
 
