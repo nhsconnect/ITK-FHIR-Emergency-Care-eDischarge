@@ -1,6 +1,6 @@
 entries:
-- title: ITK3 FHIR Emergency Care eDischarge 
-  product: ITK3 FHIR Emergency Care eDischarge
+- title: ITK3 Emergency Care eDischarge 
+  product: ITK3 Emergency Care eDischarge
   version: 2.2.0-alpha
   levels: one
   folders:
