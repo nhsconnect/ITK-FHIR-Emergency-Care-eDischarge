@@ -55,7 +55,7 @@ The Clinical narrative section carries details of the clinical narrative. Where 
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Emergency Care eDischarge does not currently support a coded clinical narrative.
+- The ITK3 FHIR Emergency Care eDischarge does not currently support a coded clinical narrative.
 
 
 
