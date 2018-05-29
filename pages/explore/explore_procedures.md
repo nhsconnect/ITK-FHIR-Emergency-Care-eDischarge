@@ -50,7 +50,7 @@ The Procedures section carries information about the procedures that have been p
    <td>Anatomical site</td>
    <td>The body site of the procedure</td>
    <td>0 to 1</td>
-   <td>ptional</td>
+   <td>optional</td>
    <td>Choice of Text or  Text derived from SNOMED CT.</td>
   </tr>
   <tr>

@@ -43,21 +43,21 @@ The Safety alerts section carries safety alerts associated with the patient. Ele
    <td>Risks the patient poses to themselves, e.g., suicide, overdose, self-harm, self-neglect.</td>
    <td>0 to 1</td>
    <td>required</td>
-   <td>A statement of any risks identified by the clinician. Text.ECDS SNOMED CT Safeguarding subset</td>
+   <td>A statement of any risks identified by the clinician. Text. ECDS SNOMED CT Safeguarding subset</td>
   </tr>
   <tr>
    <td>Risks to others</td>
    <td>Risks caring professionals or others.</td>
    <td>0 to 1</td>
    <td>required</td>
-   <td>A statement of any risks identified by the clinician. Text.ECDS SNOMED CT Safeguarding subset</td>
+   <td>A statement of any risks identified by the clinician. Text. ECDS SNOMED CT Safeguarding subset</td>
   </tr>
   <tr>
    <td>Risk from others </td>
    <td>Details of where an adult or child is at risk from an identified person e.g. family member etc.</td>
    <td>0 to 1</td>
    <td>required</td>
-   <td>A statement of any risks identified by the clinician. Text.ECDS SNOMED CT safeguarding subset.</td>
+   <td>A statement of any risks identified by the clinician. Text. ECDS SNOMED CT safeguarding subset.</td>
   </tr>
  </tbody>
 </table>
