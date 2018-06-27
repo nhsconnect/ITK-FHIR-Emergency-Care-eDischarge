@@ -15,11 +15,11 @@ The Plan and requested actions section carries information about planned and req
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
  <tbody>
@@ -27,15 +27,15 @@ The Plan and requested actions section carries information about planned and req
    <td>Plan and requested actions</td>
    <td>The details of planned investigations, procedures and treatment, and whether this plan has been agreed with the patient or their legitimate representative.</td>
    <td>1 only</td>
-   <td>mandatory</td>
-   <td>&nbsp;</td>
+   <td>M</td>
+	<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
-			<th>Element</th>
+			<th>PRSB Element</th>
 			<th>Description</th>
-			<th>Cardinality</th>
+			<th>Card.</th>
 			<th>MRO*</th>
-			<th>Values</th>
+			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
    <td>Action</td>
@@ -50,6 +50,9 @@ The Plan and requested actions section carries information about planned and req
    <td>mandatory</td>
    <td>A record of the planned and requested actions. May be structured (table), with actions, names, dates, status, location, strategies, or free text</td>
   </tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
  </tbody>
 </table>
 
