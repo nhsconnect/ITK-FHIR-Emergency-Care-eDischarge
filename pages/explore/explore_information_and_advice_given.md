@@ -16,11 +16,11 @@ The Information and advice given section carries details about the information a
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
  <tbody>
@@ -28,25 +28,28 @@ The Information and advice given section carries details about the information a
    <td>Information and advice given</td>
    <td>A record of any information or advice given to the patient, carer or relevant third party.</td>
    <td>0 to 1</td>
-   <td>mandatory</td>
-   <td>&nbsp;</td>
+   <td>M</td>
+			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
-			<th>Element</th>
+			<th>PRSB Element</th>
 			<th>Description</th>
-			<th>Cardinality</th>
+			<th>Card.</th>
 			<th>MRO*</th>
-			<th>Values</th>
+			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
    <td>Information and advice given</td>
    <td>This includes:-what information-to whom it was given.</td>
    <td>1 only</td>
-   <td>mandatory</td>
-   <td>Free text description of information and advice given and patient/carer comprehension. For this use case this element also includes ECDS Emergency Care Discharge Information Given code set (SNOMED CT) :
+   <td>M</td>
+   <td>Free text description of information and advice given and patient/carer comprehension. For this use case this element may also also contain text derived from the  ECDS Emergency Care Discharge Information Given code set (SNOMED CT) :
    <br/>Copy of discharge letter NOT provided to patient
-   <br/>Copy of discharge letter provided to patient</td>
+   <br/>Copy of discharge letter provided to patient. <br/>Note:there is no provision to send this information in a coded format.</td>
    </tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
  </tbody>
 </table>
 
