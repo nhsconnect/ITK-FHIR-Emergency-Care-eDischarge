@@ -28,7 +28,7 @@ The Safeguarding section carries details of any safeguarding concerns. Elements 
    <td>Safeguarding</td>
    <td>Details of any identified safeguarding concerns.</td>
    <td>&nbsp;</td>
-   <td>required</td>
+   <td>R</td>
 	<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
