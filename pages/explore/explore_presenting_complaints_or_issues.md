@@ -15,11 +15,11 @@ The Presenting complaints or issues section carries information about the compla
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
  <tbody>
@@ -27,23 +27,26 @@ The Presenting complaints or issues section carries information about the compla
    <td>Presenting complaints or issues</td>
    <td>The description of the health problems and issues experienced by the patient resulting in their attendance.</td>
    <td>1 only</td>
-   <td>mandatory</td>
-   <td>&nbsp;</td>
+   <td>M</td>
+	<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
-			<th>Element</th>
+			<th>PRSB Element</th>
 			<th>Description</th>
-			<th>Cardinality</th>
+			<th>Card.</th>
 			<th>MRO*</th>
-			<th>Values</th>
+			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
    <td>Presenting complaints or issue</td>
    <td>The list and description of the health problems and issues experienced by the patient resulting in the attendance. This may include disease state, medical condition, response and reaction to therapies, eg blackout, dizziness, chest pain, follow-up from admission, falls, a specific procedure, investigation or treatment.</td>
    <td>1 only</td>
-   <td>mandatory</td>
-   <td>Only ONE (chief complaint) sent as per the ECDS Emergency Care Chief Complaint code set (SNOMED CT).</td>
+   <td>M</td>
+   <td>Only ONE (chief complaint) sent as per the ECDS Emergency Care Chief Complaint code set (SNOMED CT).Text and if available a SNOMED CT concept carried in the CodeableConcept of the <b>Condition.code</b> FHIR element.</td>
   </tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
  </tbody>
 </table>
 
