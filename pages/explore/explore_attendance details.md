@@ -45,6 +45,9 @@ The Attendance details section carries information about Attendance details used
    <td>M</td>
    <td>The date as recorded on the PAS in text and carried in the FHIR element <b>Encounter.period.start</b> and <b>Encounter.period.end</b>.</td>
   </tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
  </tbody>
 </table>
 

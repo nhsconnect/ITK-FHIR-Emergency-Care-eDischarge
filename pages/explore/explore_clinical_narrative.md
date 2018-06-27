@@ -15,11 +15,11 @@ The Clinical narrative section carries details of the clinical narrative. Where 
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
  <tbody>
@@ -27,23 +27,26 @@ The Clinical narrative section carries details of the clinical narrative. Where 
    <td>Clinical narrative</td>
    <td>A brief description of the encounter.</td>
    <td>1 only</td>
-   <td>mandatory</td>
-   <td>&nbsp;</td>
+   <td>M</td>
+	<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
-			<th>Element</th>
+			<th>PRSB Element</th>
 			<th>Description</th>
-			<th>Cardinality</th>
+			<th>Card.</th>
 			<th>MRO*</th>
-			<th>Values</th>
+			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
    <td>Clinical narrative</td>
    <td>A description detailing a patient's reason for attendance, results from the diagnostic and treatment process.</td>
    <td>1 only</td>
-   <td>mandatory</td>
+   <td>M</td>
    <td>Free text.</td>
   </tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
  </tbody>
 </table>
 
