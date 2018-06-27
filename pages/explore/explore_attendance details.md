@@ -16,11 +16,11 @@ The Attendance details section carries information about Attendance details used
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
  <tbody>
@@ -28,22 +28,22 @@ The Attendance details section carries information about Attendance details used
    <td>Attendance details</td>
    <td>The details of the patient contact.</td>
    <td>1 only</td>
-   <td>mandatory</td>
-   <td>&nbsp;</td>
+   <td>M</td>
+	<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
-			<th>Element</th>
+			<th>PRSB Element</th>
 			<th>Description</th>
-			<th>Cardinality</th>
+			<th>Card.</th>
 			<th>MRO*</th>
-			<th>Values</th>
+			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
    <td>Date and time of contact</td>
    <td>Date and time of the appointment, contact or attendance.</td>
    <td>1 only</td>
-   <td>mandatory</td>
-   <td>The date as recorded on the PAS</td>
+   <td>M</td>
+   <td>The date as recorded on the PAS in text and carried in the FHIR element <b>Encounter.period.start</b> and <b>Encounter.period.end</b>.</td>
   </tr>
  </tbody>
 </table>

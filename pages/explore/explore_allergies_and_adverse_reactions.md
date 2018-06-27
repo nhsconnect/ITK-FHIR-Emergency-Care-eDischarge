@@ -62,21 +62,21 @@ This table should be used in conjunction with the section on [constructing clini
 			<td>Severity</td>
 			<td>A description of the severity of the reaction</td>
 			<td>0 to 1</td>
-			<td>optional</td>
+			<td>O</td>
 			<td>Text and if coding is available carried in the CodeableConcept of the <b>AllergyIntolerance.reaction.severity</b> FHIR element. For further information on severity see <a href="build_allergy_lists.html#severity">Constructing Allergy Lists (Severity)</a>.</td>
 		</tr>
 		<tr>
 			<td>Certainty</td>
 			<td>A description of the certainty that the stated causative agent caused the allergic or adverse reaction.</td>
 			<td>0 to 1</td>
-			<td>optional</td>
+			<td>O</td>
 			<td>Text and if coding is used available carried in the Code of <b>AllergyIntolerance.verificationStatus</b> FHIR element. For further information on certainty see <a href="build_allergy_lists.html#certainty">Constructing Allergy Lists (Certainty)</a>.</td>
 		</tr>
 		<tr>
 			<td>Comment</td>
 			<td>Any additional comment or clarification about the adverse reaction.</td>
 			<td>0 to 1</td>
-			<td>required</td>
+			<td>R</td>
 			<td>Free text</td>
 		</tr>
 		<tr>
