@@ -15,11 +15,11 @@ The Contact for further information section carries information about the contac
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
  <tbody>
@@ -27,23 +27,26 @@ The Contact for further information section carries information about the contac
    <td>Contact for further information</td>
    <td>Details of a contact who can provide further information.</td>
    <td>1 only</td>
-   <td>mandatory</td>
-   <td>&nbsp;</td>
+   <td>M</td>
+   	<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
-			<th>Element</th>
+			<th>PRSB Element</th>
 			<th>Description</th>
-			<th>Cardinality</th>
+			<th>Card.</th>
 			<th>MRO*</th>
-			<th>Values</th>
+			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
    <td>Contact for further information</td>
    <td>The contact details of whom to contact for information regarding this attendance.</td>
    <td>1 only</td>
-   <td>mandatory</td>
+   <td>M</td>
    <td>The contact details may be for an individual or team (for example a phone number for the emergency department administrator). Free text.</td>
   </tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
  </tbody>
 </table>
 
