@@ -11,14 +11,15 @@ summary: "Gives information about the Referrer details section"
 
 ## Referrer Details Section Content##
 The Referrer details section carries a narrative summary of the episode. Where possible, very brief. Elements should be formatted as subheadings in any HTML sent.
+
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
  <tbody>
@@ -26,23 +27,26 @@ The Referrer details section carries a narrative summary of the episode. Where p
    <td>Referrer details</td>
    <td>Details of the individual or team who referred the patient.</td>
    <td>0 to 1</td>
-   <td>required</td>
-   <td>&nbsp;</td>
+   <td>R</td>
+	<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
-			<th>Element</th>
+			<th>PRSB Element</th>
 			<th>Description</th>
-			<th>Cardinality</th>
+			<th>Card.</th>
 			<th>MRO*</th>
-			<th>Values</th>
+			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
    <td>Referrer details</td>
    <td>Name, role, grade, organisation and contact details of referrer. If not an individual, this could be e.g. GP surgery, department, specialty, sub-specialty, educational institution, mental health team etc. Also needs to include self-referral.</td>
    <td>1 only</td>
-   <td>mandatory</td>
-   <td>Sent as per the ECDS Emergency Care Attendance Source code set (SNOMED CT).</td>
+   <td>M</td>
+   <td>Text and where applicable sent as per the ECDS Emergency Care Attendance Source code set (SNOMED CT) with Original Subset ID 75011000000136. These coded values cannot be sent in a FHIR Resource but the text should reflect this coded list if applicable.</td>
   </tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
  </tbody>
 </table>
 
