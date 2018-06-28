@@ -63,7 +63,7 @@ The Patient demographics section contains information about the patient. Element
 			<td>The unique identifier for a patient within the NHS in England and Wales.</td>
 			<td>0 to 1</td> 
 			<td>R</td>
-			<td>Sent as text as per the NHS Data Dictionary NHS number. Traced NHS Numbers only should be used and the NHS number  <b>SHOULD</b> be carried in the FHIR element <b>Patient.identifier</b>.</td>
+			<td>Sent as text as per the NHS Data Dictionary NHS number. Traced NHS Numbers only should, be used and the NHS number  <b>SHOULD</b> be carried in the FHIR element <b>Patient.identifier</b>.</td>
 		</tr>
 		<tr>
 			<td>Other identifier</td>
@@ -95,7 +95,7 @@ The Patient demographics section contains information about the patient. Element
 		</tr>
 		<tr>
 			<td>Educational establishment</td>
-			<td>If the patient is a child, name and address of where the child attends, eg play group, nursery, school.</td>
+			<td>If the patient is a child, name and address of where the child attends, e.g. play group, nursery, school.</td>
 			<td>0 to 1</td>
 			<td>O</td>
 			<td>Text only.</td>

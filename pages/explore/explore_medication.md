@@ -46,7 +46,7 @@ The Medications and medical devices section carries information about the patien
 		</tr>
 		<tr>
 			<td>Medication name</td>
-			<td>May be generic name or brand name (as appropriate). Mandatory medication name coded using a SNOMED CT/dm+d term where possible, allowing plain text for historical/patient reported items , extemporaneous preparations or those not registered in dm+d. Comment: e.g. "Citalopram tab 20mg", "Trimethoprim"</td>
+			<td>May be generic name or brand name (as appropriate). Mandatory medication name coded using a SNOMED CT/dm+d term where possible, allowing plain text for historical/patient reported items, extemporaneous preparations or those not registered in dm+d. Comment: e.g. "Citalopram tab 20mg", "Trimethoprim"</td>
 			<td>1 only</td>
 			<td>M</td>
 			<td>Text and a SNOMED CT concept carried in the CodeableConcept of the FHIR element <b>MedicationStatement.medication[x].<br/>medicationReference.Medication.Name</b>. See <a href="build_medication_lists.html#medicationcode">medication.code</a> for further guidance.</td>
@@ -211,24 +211,24 @@ The Medications and medical devices section carries information about the patien
 		</tr>
 		<tr>
 			<td>Indication</td>
-			<td>Reason for change in medication, eg sub-therapeutic dose, patient intolerant.</td>
+			<td>Reason for change in medication, e.g. sub-therapeutic dose, patient intolerant.</td>
 			<td>0 to 1</td>
 			<td>O</td>
-			<td>Text and and carried using the FHIR elements in <b>MedicationStatement.Extension<br/>-CareConnect-MedicationChangeSummary</b>, These is will use the <b>indicationForChange</b> element.</td>
+			<td>Text and and carried using the FHIR elements in <b>MedicationStatement.Extension<br/>-CareConnect-MedicationChangeSummary</b>, this is will use the <b>indicationForChange</b> element.</td>
 		</tr>
 		<tr>
 			<td>Date of latest change</td>
 			<td>The date of the latest change - addition, or amendment</td>
 			<td>0 to 1</td>
 			<td>O</td>
-			<td>Text and carried using the FHIR elements in <b>MedicationStatement.Extension<br/>-CareConnect-MedicationChangeSummary</b>, These is will use the <b>dateChanged</b> element.</td>
+			<td>Text and carried using the FHIR elements in <b>MedicationStatement.Extension<br/>-CareConnect-MedicationChangeSummary</b>, this is will use the <b>dateChanged</b> element.</td>
 		</tr>
 		<tr>
 			<td>Description of amendment</td>
-			<td>Where a change is made to the medication ie one drug stopped and another started or eg dose, frequency or route is changed.</td>
+			<td>Where a change is made to the medication i.e. one drug stopped and another started or e.g. dose, frequency or route is changed.</td>
 			<td>0 to 1</td>
 			<td>O</td>
-			<td>Text and carried using the FHIR elements in <b>MedicationStatement.Extension<br/>-CareConnect-MedicationChangeSummary</b>, These is will use the <b>detailsOfAdmendment</b> element.</td>
+			<td>Text and carried using the FHIR elements in <b>MedicationStatement.Extension<br/>-CareConnect-MedicationChangeSummary</b>, this is will use the <b>detailsOfAdmendment</b> element.</td>
 		</tr>
 		<tr>
 			<td>Comment</td>
@@ -260,7 +260,7 @@ The Medications and medical devices section carries information about the patien
 		</tr>
 		<tr>
 			<td>Name of discontinued medication</td>
-			<td>May be generic name or brand name (as appropriate).Mandatory medication name coded using a SNOMED CT/dm+d term where possible, allowing plain text for historical/patient reported items , extemporaneous preparations or those not registered in dm+d. Comment: e.g."Citalopram tab 20mg", "Trimethoprim"</td>
+			<td>May be generic name or brand name (as appropriate). Mandatory medication name coded using a SNOMED CT/dm+d term where possible, allowing plain text for historical/patient reported items , extemporaneous preparations or those not registered in dm+d. Comment: e.g."Citalopram tab 20mg", "Trimethoprim"</td>
 			<td>1 only</td>
 			<td>M</td>
 			<td>Text and a SNOMED CT concept carried in the CodeableConcept of the FHIR element <b>MedicationStatement.medication[x].<br/>medicationReference.Medication.Name</b>. See <a href="build_medication_lists.html#medicationcode">medication.code</a> for further guidance.</td>

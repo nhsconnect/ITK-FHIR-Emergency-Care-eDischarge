@@ -40,12 +40,12 @@ The Information and advice given section carries details about the information a
 		</tr>
   <tr>
    <td>Information and advice given</td>
-   <td>This includes:-what information-to whom it was given.</td>
+   <td>This includes:- what information-to whom it was given.</td>
    <td>1 only</td>
    <td>M</td>
-   <td>Free text description of information and advice given and patient/carer comprehension. For this use case this element may also also contain text derived from the  ECDS Emergency Care Discharge Information Given code set (SNOMED CT) :
+   <td>Free text description of information and advice given and patient/carer comprehension. For this use case this element may also contain text derived from the  ECDS Emergency Care Discharge Information Given code set (SNOMED CT):
    <br/>Copy of discharge letter NOT provided to patient
-   <br/>Copy of discharge letter provided to patient. <br/>Note:there is no provision to send this information in a coded format.</td>
+   <br/>Copy of discharge letter provided to patient. <br/>Note: there is no provision to send this information in a coded format.</td>
    </tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>

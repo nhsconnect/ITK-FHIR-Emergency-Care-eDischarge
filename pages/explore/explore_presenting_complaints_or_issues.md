@@ -39,7 +39,7 @@ The Presenting complaints or issues section carries information about the compla
 		</tr>
   <tr>
    <td>Presenting complaints or issue</td>
-   <td>The list and description of the health problems and issues experienced by the patient resulting in the attendance. This may include disease state, medical condition, response and reaction to therapies, eg blackout, dizziness, chest pain, follow-up from admission, falls, a specific procedure, investigation or treatment.</td>
+   <td>The list and description of the health problems and issues experienced by the patient resulting in the attendance. This may include disease state, medical condition, response and reaction to therapies, e.g. blackout, dizziness, chest pain, follow-up from admission, falls, a specific procedure, investigation or treatment.</td>
    <td>1 only</td>
    <td>M</td>
    <td>Only ONE (chief complaint) sent as per the ECDS Emergency Care Chief Complaint code set (SNOMED CT).Text and if available a SNOMED CT concept carried in the CodeableConcept of the <b>Condition.code</b> FHIR element.</td>

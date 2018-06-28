@@ -42,7 +42,7 @@ The Discharge details section carries details of the patient's discharge. Elemen
    <td>Patient status on discharge from emergency care.</td>
    <td>1 only</td>
    <td>M</td>
-   <td>This is sent as text and and "MUST" be included in the FHIR element <b>Encounter.extension(emergencyCareDischargeStatus)</b> and will contain a code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104. </td>
+   <td>This is sent as text and "MUST" be included in the FHIR element <b>Encounter.extension(emergencyCareDischargeStatus)</b> and will contain a code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104. </td>
   </tr>
 		<tr>
 			<td>Date/time of discharge</td>

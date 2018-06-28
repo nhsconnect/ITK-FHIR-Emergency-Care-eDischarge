@@ -42,14 +42,14 @@ The Senior reviewing clinician section carries information about the senior revi
    <td>The name of the senior clinician responsible for reviewing the patient treatment and discharge plan.</td>
    <td>1 only</td>
    <td>M</td>
-   <td>The person name as held on the source system. Where possible this should be broken down into its constituent parts (prefix, given name, family name, suffix). The is carried in text and in the FHIR element <b>Practitioner.name</b> and associated sub-elements. </td>
+   <td>The person name as held on the source system. Where possible this should be broken down into its constituent parts (prefix, given name, family name, suffix). The is carried in text and in the FHIR element <b>Practitioner.name</b> and associated sub-elements.</td>
   </tr>
   <tr>
    <td>Professional identifier</td>
    <td>The unique identifier issued by the regulatory body e.g., GMC number, HCPC number etc.</td>
    <td>0 to 1</td>
    <td>R</td>
-   <td>The professional identifier type and the identifier itself as held on the source system. This is An identifier for the person completing the record will be sent (but may not be displayed in the rendered message). This <b>MUST NOT</b> be sent in text but carried in the FHIR element <b>Practitioner.identifier</b> and <b>Practitioner.identifier.type</b></td>
+   <td>The professional identifier type and the identifier itself as held on the source system. This is an identifier for the person completing the record will be sent (but may not be displayed in the rendered message). This <b>MUST NOT</b> be sent in text but carried in the FHIR element <b>Practitioner.identifier</b> and <b>Practitioner.identifier.type</b></td>
   </tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
