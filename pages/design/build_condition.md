@@ -39,7 +39,7 @@ This Resource is used to record detailed information about a condition, problem,
 
 - identifier - uniquely identifies this condition (UUIDs)
 - clinicalStatus - 	active, recurrence, inactive, remission, resolved etc
-- category - for eDischarge this will normally be encounter-diagnosis
+- category - for Emergency Care eDischarge this will normally be encounter-diagnosis
 - code - identification of the condition, problem or diagnosis
 - subject - the patient
 - onset - estimated or actual date, date-time, or age
