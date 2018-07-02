@@ -10,7 +10,7 @@ summary: "Gives information about the Senior reviewing clinician section"
 {% include custom/section.warnbanner.html %}
 
 ## Senior Reviewing Clinician Section Content##
-The Senior reviewing clinician section carries information about the senior reviewing clinician. Elements should be formatted as subheadings in any HTML sent.
+The Senior reviewing clinician section carries information about the senior reviewing clinician. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
 	<thead>

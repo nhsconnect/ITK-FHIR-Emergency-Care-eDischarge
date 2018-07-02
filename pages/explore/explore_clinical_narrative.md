@@ -10,7 +10,7 @@ summary: "Gives information about the Clinical narrative section"
 {% include custom/section.warnbanner.html %}
 
 ## Clinical Narrative Section Content ##
-The Clinical narrative section carries details of the clinical narrative. Where possible, very brief. Elements should be formatted as subheadings in any HTML sent.
+The Clinical narrative section carries details of the clinical narrative. Where possible, very brief. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
 	<thead>

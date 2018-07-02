@@ -10,7 +10,7 @@ summary: "Gives information about the Contact for further information section"
 {% include custom/section.warnbanner.html %}
 
 ## Contact for further information Content ##
-The Contact for further information section carries information about the contact details. Elements should be formatted as subheadings in any HTML sent.
+The Contact for further information section carries information about the contact details. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
 	<thead>
