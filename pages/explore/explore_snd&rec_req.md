@@ -7,7 +7,7 @@ permalink: explore_snd&rec_req.html
 summary: "Sender and Receiver requirements for ITK3 Messaging Solutions."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Overview ##
 

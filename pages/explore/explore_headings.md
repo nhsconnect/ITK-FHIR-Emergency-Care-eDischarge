@@ -7,7 +7,7 @@ permalink: explore_headings.html
 summary: "Overview of the Emergency Care eDischarge headings"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 {% include custom/section.warnbanner.html %}
 
 ## Overview ##

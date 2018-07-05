@@ -7,7 +7,7 @@ permalink: engage_richard_smith.html
 summary: "Example scenario - Richard Smith Emergency Care"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Background ##
 

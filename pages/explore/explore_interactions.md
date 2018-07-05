@@ -7,7 +7,7 @@ permalink: explore_interactions.html
 summary: "ITK3 Emergency Care eDischarge Interactions"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 
 

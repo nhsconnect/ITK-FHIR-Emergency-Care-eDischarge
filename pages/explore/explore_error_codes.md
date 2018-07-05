@@ -7,7 +7,7 @@ permalink: explore_error_codes.html
 summary: "Error codes, their associated elements and value sets."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Overview ##
 

@@ -7,7 +7,7 @@ permalink: explore_EC_eDischarge_def.html
 summary: "Emergency Care eDischarge Message Definition"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Emergency Care eDischarge Message Definition Overview ##
 
