@@ -42,8 +42,8 @@ The sending hospital system will construct an Emergency Care eDischarge FHIR Doc
 Dependent on system set up the following interactions may be utilised.
 
 
-- <a href="https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_interactions.html#rsp-itk-infrastructure-acknowledgement-response-1-interaction" target="_blank">RSP-ITK-Infrastructure-Acknowledgement-Response-1</a>
-- <a href="https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_interactions.html#rsp-itk-business-acknowledgement-response-1-interactions" target="_blank">RSP-ITK-Business-Acknowledgement-Response-1</a>
+- <a href="https://developer.nhs.uk/apis/itk3messagedistribution/explore_interactions.html#rsp-itk-infrastructure-acknowledgement-response-1-interaction" target="_blank">RSP-ITK-Infrastructure-Acknowledgement-Response-1</a>
+- <a href="https://developer.nhs.uk/apis/itk3messagedistribution/explore_interactions.html#rsp-itk-business-acknowledgement-response-1-interactions" target="_blank">RSP-ITK-Business-Acknowledgement-Response-1</a>
 
 ## Emergency Care eDischarge ITK3 FHIR Document Interactions Diagram  ##
 
