@@ -8,6 +8,8 @@ toc: false
 summary: A brief introduction to getting started with the ITK3 Emergency Care eDischarge.
 ---
 
+{% include custom/versions_warning.html %}
+
 ## Introduction ##
 
 The Emergency Care eDischarge  Specification supports the following care communications:
