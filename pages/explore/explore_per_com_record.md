@@ -62,11 +62,6 @@ The Person completing record section carries information about the person who co
 
 <script src="https://gist.github.com/IOPS-DEV/4eceababbca389067cde4aefd2d61cde.js"></script>
 
-## Coded Resources ##
-
-This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
-
-- The ITK3 FHIR Emergency Care eDischarge does not currently support coded Person completing record information.
 
 
 
