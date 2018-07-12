@@ -60,7 +60,7 @@ The Person completing record section carries information about the person who co
 
 ## Example Person Completing Record Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/4eceababbca389067cde4aefd2d61cde.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/d632cf54ef48b4553c6ce189cba3def5.js"></script>
 
 
 
