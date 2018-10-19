@@ -9,7 +9,7 @@ summary: "Gives information about the Presenting complaints or issues section"
 
 {% include custom/section.warnbanner.html %}
 
-## Presenting Complaints Or Issues Section Content##
+## Presenting Complaints Or Issues Section content ##
 The Presenting complaints or issues section carries information about the complaints or issues experienced by the patient. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
