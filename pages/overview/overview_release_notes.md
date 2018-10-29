@@ -7,6 +7,61 @@ permalink: overview_release_notes.html
 summary: Summary release notes of the versions released in ITK3 Emergency Care eDischarge Implementation Guide
 ---
 
+
+## 2.5.0-Release Candidate ##
+
+**General Page Issues**
+
+- Fixed broken links to CareConnect Profiles.
+- Fixed display issues with section pages displaying random ## characters
+
+**Profiles** 
+
+- All Profiles are now "Active" status
+- Condition Profile has optional condition.note added to profile and minor version increased +1
+- Composition Profile has care-setting extension aligned with CareConnect results in a URL change but structure is identical
+- Composition Profile has document type value set aligned with CareConnect results in URL change but codes are identical  
+- Removal of Organization reference from Person Completing record Section as it was an incorrect reference
+- Removal of optional element verificationStatus from Composition Profile as no requirement to use for Transfer of Care
+- MedicationDispense Profile Identifier.system and Identifier.value cardinality changed from 0..1 to 1..1. to align with MVP document 
+- CareConnect-ITK-AllergyIntolerance-1 added optional SNOMED CT Description Id extension to AllergyIntolerance.code element not used by ToC but added to future proof ITK Profiles
+- CareConnect-ITK-AllergyIntolerance-1 Profile AllergyIntolerance.assertedDate element cardinality changed from 0..1 to 1..1. to align with MVP document and CareConnect base Profile 
+
+**Care Connect Profiles Changes that Impact ToC**
+- CareConnnect Profiles are now the latest "Active" versions minor version is increased +1 these are minor changes with very little impact on Toc known impact is listed in this change history
+
+**CareConnect Value Set Changes that Impact ToC**
+- CareConnect-ListCode-1 value set display value="Allergies and adverse reaction" should be display value="Allergies and adverse reactions".
+- null flavor codes added to the ValueSet CareConnect-AllergyManifestation-1 used in element AllergyIntolerance.reaction.manifestation
+
+**PRSB Headings**
+
+- Specification has been aligned with the latest PRSB maintenance release
+- Allergies and Adverse Reactions Description of reaction element changed from optional to required
+- Allergies and Adverse Reactions Severity element changed from optional to required
+- Allergies and Adverse Reactions Certainty element changed from optional to required
+- Diagnosis comment element changed from optional to required
+- Safeguarding issues element renamed to safeguarding concerns 
+
+
+**Vale Sets**
+
+- See CareConnect Value Set 
+
+**Message Definitions**
+
+- Updated to reflect changes to FHIR assets as document here
+- Message definition URL aligned with NHS Digital FHIR policy naming by removing word instance
+
+**Additional Guidance**
+
+- Added guidance for population of GP Practice identifier(ODS Code) when using MESH look up [see](build_mesh.html#use-of-gp-look-up-on-mesh)
+- Added guidance for document replacement semantics [see](build_replacement.html#fhir-elements-used-for-replacement)  
+
+**Diagrams**
+
+- Section overview diagram updated to remove reference to organization on Person Completing Record section
+
 ## 2.4.0-beta ##
 
 **Profiles**
