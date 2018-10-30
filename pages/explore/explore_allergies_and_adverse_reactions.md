@@ -54,7 +54,7 @@ This table should be used in conjunction with the section on [constructing clini
 			<td>Description of reaction</td>
 			<td>A description of the manifestation of the allergic or adverse reaction experienced by the patient. For example, skin rash.</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td>R</td>
 			<td>Text and if coding is available carried in the CodeableConcept of the <b>AllergyIntolerance.reaction.manifestation</b> FHIR element. If no coding available use  <b>AllergyIntolerance.reaction.description</b> FHIR element. For further information on reaction details see <a href="build_allergy_lists.html#reaction-details">Constructing Allergy Lists (Description of reaction).</a></td>
 		</tr>
 
@@ -62,14 +62,14 @@ This table should be used in conjunction with the section on [constructing clini
 			<td>Severity</td>
 			<td>A description of the severity of the reaction</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td>R</td>
 			<td>Text and if coding is available carried in the CodeableConcept of the <b>AllergyIntolerance.reaction.severity</b> FHIR element. For further information on severity see <a href="build_allergy_lists.html#severity">Constructing Allergy Lists (Severity)</a>.</td>
 		</tr>
 		<tr>
 			<td>Certainty</td>
 			<td>A description of the certainty that the stated causative agent caused the allergic or adverse reaction.</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td>R</td>
 			<td>Text and if coding is used available carried in the Code of <b>AllergyIntolerance.verificationStatus</b> FHIR element. For further information on certainty see <a href="build_allergy_lists.html#certainty">Constructing Allergy Lists (Certainty)</a>.</td>
 		</tr>
 		<tr>

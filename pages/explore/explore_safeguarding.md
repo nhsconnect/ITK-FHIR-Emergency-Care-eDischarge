@@ -39,7 +39,7 @@ The Safeguarding section carries details of any safeguarding concerns. PRSB Elem
 			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
-   <td>Safeguarding issue</td>
+   <td>Safeguarding concerns</td>
    <td>A record of any identification of concerns regarding safeguarding during attendance</td>
    <td>0 to many</td>
    <td>R</td>

@@ -41,7 +41,7 @@ summary: Summary release notes of the versions released in ITK3 Emergency Care e
 - Allergies and Adverse Reactions Severity element changed from optional to required
 - Allergies and Adverse Reactions Certainty element changed from optional to required
 - Diagnosis comment element changed from optional to required
-- Safeguarding issues element renamed to safeguarding concerns 
+- Safeguarding issues element renamed to Safeguarding concerns 
 
 
 **Vale Sets**

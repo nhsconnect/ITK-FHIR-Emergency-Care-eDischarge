@@ -48,7 +48,7 @@ The Diagnoses section carries information about Diagnoses. PRSB Elements should 
 			<td>Comment</td>
 			<td>Supporting text may be given covering diagnosis confirmation, active diagnosis being treated.</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td>R</td>
 			<td>Free text.  Supporting text may be given covering diagnosis confirmation, active diagnosis being treated.  The section text should be repeated in the text of the <b>Condition.note </b>FHIR element to record Free differential and excluded diagnosis.</td>
 		</tr>
 		<tr>
