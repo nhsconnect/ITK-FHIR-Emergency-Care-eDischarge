@@ -50,7 +50,7 @@ summary: Summary release notes of the versions released in ITK3 Emergency Care e
 
 **Message Definitions**
 
-- Updated to reflect changes to FHIR assets as document here
+- Updated to reflect changes to FHIR asset versions due to changes documented here.
 - Message definition URL aligned with NHS Digital FHIR policy naming by removing word instance
 
 **Additional Guidance**
