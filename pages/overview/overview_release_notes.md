@@ -61,6 +61,7 @@ summary: Summary release notes of the versions released in ITK3 Emergency Care e
 **Diagrams**
 
 - Section overview diagram updated to remove reference to organization on Person Completing Record section
+- Section overview diagram updated to add reference to encounter from Attendance details section to align with the Composition Profile
 
 ## 2.4.0-beta ##
 

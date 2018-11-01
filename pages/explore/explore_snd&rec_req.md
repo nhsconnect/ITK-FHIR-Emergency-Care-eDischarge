@@ -11,7 +11,7 @@ summary: "Sender and Receiver requirements for ITK3 Messaging Solutions."
 
 ## Overview ##
 
-There are a number of requirements for senders and receivers of ITK3 messaging that **must** be met. The [ITK3 Sender and Receiver Requirements](https://developer.nhs.uk/apis/itk3messagedistribution/explore_snd&rec_req.html) gives general guidance on producing ITK3 FHIR documents as well as stating the conformance rules. 
+There are a number of requirements for senders and receivers of ITK3 messaging that **must** be met. The [ITK3 Sender and Receiver Requirements](https://developer.nhs.uk/apis/itk3messagedistribution/explore_s_and_r.html) gives general guidance on producing ITK3 FHIR documents as well as stating the conformance rules. 
 
 
 
