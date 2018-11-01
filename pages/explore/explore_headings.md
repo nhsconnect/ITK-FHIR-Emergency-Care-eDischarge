@@ -230,7 +230,7 @@ This diagram illustrates the sections used in Emergency Care eDischarge and whic
 
 
 The text sections are carried in the FHIR Composition Resource. 
-This is profiled as the [ITK-EC-Compostion](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-EC-Composition-1)
+This is profiled as the [CareConnect-ITK-EC-Compostion](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-EC-Composition-1)
 
 
 
