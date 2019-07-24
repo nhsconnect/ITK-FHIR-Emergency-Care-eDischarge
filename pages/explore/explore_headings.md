@@ -67,7 +67,7 @@ The “must support” property has been added to all the elements that must be 
 			<a href="explore_allergies_and_adverse_reactions.html">Allergies and adverse reactions</a>
 		</td>
 		<td>886921000000105</td>
-		<td>1..1</td>
+		<td>0..1</td>
 		<td>Required</td>
 		<td>2</td>
 	</tr>
@@ -103,8 +103,8 @@ The “must support” property has been added to all the elements that must be 
 			<a href="explore_diagnoses.html">Diagnoses</a>
 		</td>
 		<td>887161000000102</td>
-		<td>0..1</td>
-		<td>Required</td>
+		<td>1..1</td>
+		<td>Mandatory</td>
 		<td>2</td>
 	</tr>
 	<tr>
@@ -112,7 +112,7 @@ The “must support” property has been added to all the elements that must be 
 			<a href="explore_discharge_details.html">Discharge details</a>
 		</td>
 		<td>886811000000106</td>
-		<td>1..1</td>
+		<td>0..1</td>
 		<td>Required</td>
 		<td>1</td>
 	</tr>
@@ -130,8 +130,8 @@ The “must support” property has been added to all the elements that must be 
 			<a href="explore_information_and_advice_given.html">Information and advice given</a>
 		</td>
 		<td>1052951000000105</td>
-		<td>0..1</td>
-		<td>Required</td>
+		<td>1..1</td>
+		<td>Mandatory</td>
 		<td>0</td>
 	</tr>
 	<tr>
