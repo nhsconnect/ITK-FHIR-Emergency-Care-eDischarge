@@ -10,7 +10,7 @@ summary: Summary release notes of the versions released in ITK3 Emergency Care e
 
 **Profiles**
 
-- The SNOMED CT binding for the Composition profile sections has been amended to fix validation errors.
+- CareConnect-ITK-ECD-Composition-1 - The SNOMED CT bindings for the profile sections has been amended to fix validation errors.
 - CareConnect-ITK-Condition-1 - Element `abatement` has been reinstated. Cardinality has been changed from 0..0 to 0..1.
 
 **Section Headings**
