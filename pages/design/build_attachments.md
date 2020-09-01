@@ -20,6 +20,54 @@ Senders <b>MAY</b> include attachments within the Transfer of Care documents. Fo
 ## Format of Attachments ##
 
 Sender <b>SHOULD</b> send attachments as a PDF, but <b>MAY</b> use other formats by local agreement.
+This is the default attachment support format. However, senders can reasonably expect GP IT suppliers to provide support for at least the following additional extensions in the table below.
+
+<table>
+	<tr>
+		<th>Mime Type</th>
+		<th>Extension</th>
+	</tr>
+	<tr>
+		<td>application/pdf</td>
+		<td>pdf</td>
+	</tr>
+	<tr>
+		<td>application/msword</td>
+		<td>doc</td>
+		</tr>
+	<tr>
+		<td>application/vnd.openxmlformats-officedocument.wordprocessingml.document</td>
+		<td>docx</td>
+	</tr>
+	<tr>
+		<td>application/rtf</td>
+		<td>rtf</td>
+	</tr>
+		<tr>
+		<td>text/html</td>
+		<td>html</td>
+	</tr>
+	<tr>
+		<td>text/plain</td>
+		<td>txt</td>
+	</tr>
+	<tr>
+		<td>text/xml</td>
+		<td>xml</td>
+	</tr>
+	<tr>
+		<td>image/jpeg or image/jpg</td>
+		<td>jpg</td>
+	</tr>
+		<tr>
+		<td>image/png</td>
+		<td>png</td>
+	</tr>
+	<tr>
+		<td>image/tiff</td>
+		<td>tiff</td>
+	</tr>
+</table>
 
 ## Receivers of Attachments ##
 
