@@ -6,6 +6,11 @@ sidebar: overview_sidebar
 permalink: overview_release_notes.html
 summary: Summary release notes of the versions released in ITK3 Emergency Care eDischarge Implementation Guide
 ---
+
+## 2.9.0-live ##
+
+- Removed MessageDefinitions from the specification.
+
 ## 2.8.0-live ##
 
 - Updated to 2.8.0-live.
